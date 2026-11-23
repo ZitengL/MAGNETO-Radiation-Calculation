@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use MAGNETO or these results, please cite the paper below."
+title: "MAGNETO: trajectory-based coherent radiation calculation"
+authors:
+  - family-names: Liu
+    given-names: Ziteng
+    affiliation: "University of California, Los Angeles"
+license: MIT
+preferred-citation:
+  type: conference-paper
+  title: "Forward modeling of a coherent undulator radiation diagnostic for attosecond electron bunches at FACET-II"
+  authors:
+    - family-names: Liu
+      given-names: Ziteng
+    - family-names: Schaap
+      given-names: Brian
+    - family-names: Denham
+      given-names: Paul
+    - family-names: Emma
+      given-names: Claudio
+    - family-names: Swanson
+      given-names: Kelly K.
+    - family-names: Musumeci
+      given-names: Pietro
+  collection-title: "Advanced Accelerator Concepts Workshop (AAC) proceedings"
+  year: 2026
+  notes: "In preparation"
