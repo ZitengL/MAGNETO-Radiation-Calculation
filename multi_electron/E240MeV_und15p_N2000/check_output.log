@@ -1,0 +1,19 @@
+﻿stats: 12001 output times, t = 2.168100e-09 .. 4.569761e-09 s, avgz = 0.64998 .. 1.36998 m
+numpar: 2000 .. 2000
+stdx: 19.6541 .. 19.6759 um; stdy: 19.8880 .. 20.2338 um; stdz: 9.87181 .. 9.87208 nm
+stdy start / end: 20.2338 / 19.8880 um
+avgG: 470.66442480 .. 470.66442480; max stdG 1.08e-11
+batch read in 29.5 s, 12001 groups
+G: 470.6644248004 .. 470.6644248005
+horizontal wiggle amplitude (reference): 14.403 um
+max |x deviation| 5.362e-08 m; max |y motion| 8.405e-07 m (max |y0| 49.2 um); max |z deviation| 4.566e-11 m
+exit vertical angle vs y0: slope -4.5661e-02 rad/m (fit), i.e. -1.826e-06 rad at y0 = 40 um
+analytic natural focusing: k_beta = 0.3036 1/m, -k_beta^2 L_u = -4.2125e-02 rad/m (15 periods)
+max |z deviation| / sigma_z = 4.57e-03
+exit horizontal angle vs x0: slope 2.9478e-03 rad/m (fit residual rms 5.48e-09 rad)
+exit z deviation = 1.5688e-03 * x0^2 + -2.3171e-02 * y0^2 + 8.08e-12  [m]; residual rms 1.14e-12 m
+  -> at x0 = 40 um: 0.003 nm; at y0 = 40 um: -0.037 nm
+rms of exit z deviation over the 200 particles: 0.011 nm (sigma_z = 10 nm)
+peak |By| seen = 0.351245 T -5.1398e+02 T/m^2 * x0^2 +7.2891e+03 T/m^2 * y0^2
+  -> relative change at 40 um: x -2.34e-06, y 3.32e-05
+all 2000 particles: max |x0| 72.7 um, max |y0| 74.3 um; batch: max |x - x0| 14.43 um, max |y - y0| 0.840 um

@@ -1,0 +1,31 @@
+# 2000 electrons through a short ideal dipole (rectmagnet with Enge fringe fields), 240 MeV, no space charge
+# Dipole centre z = 1.0 m, effective length 0.1 m, |B| = 0.65 T along WCS -x => bend up (+y), ~81 mrad
+# Same dipole and output grid as gpt_sims/single_electron/E240MeV_dipole_L10cm.
+
+# ---------------- Beam ----------------
+# Same initial distribution as E240MeV_und15p_N2000 (copied; make_distribution.m, seed 20261022):
+# Gaussian sigma_x = sigma_y = 20 um, sigma_z = 10 nm, cut at 4 sigma, 240 MeV, no spread/divergence,
+# each macro-particle = 1 electron. All start at t = 0.
+setfile("beam", "initial_distribution.gdf") ;
+
+# ---------------- Dipole ----------------
+zcen  = 1.0 ;                         # dipole centre [m]
+Ldip  = 0.1 ;                         # effective length along z [m]
+Bdip  = 0.65 ;                        # field [T]
+gap   = 0.01 ;                        # gap [m]
+b1    = 2/gap ;                       # Enge coefficient [1/m]
+adip  = 0.2 ;                         # width of the field region in WCS y [m]
+# ECS: origin (0,0,zcen); new x-axis = WCS +y, new y-axis = WCS -x
+# => rectmagnet field (along its own +y) points along WCS -x
+rectmagnet("wcs", 0,0,zcen, 0,1,0, -1,0,0, adip, Ldip, Bdip, 0, b1, 0) ;
+
+# ---------------- Accuracy ----------------
+accuracy(6) ;
+
+# ---------------- Output ----------------
+# Field nonzero z = 0.90 .. 1.10 m; stop 5 cm after; one output every c*dt = 3.75 um from z ~ 0.87 m.
+s0     = 10/b1 ;
+zstop  = zcen + Ldip/2 + s0 + 0.05 ;
+dz     = 3.75e-6 ;   # 3.75 um (was 60 um; result_dz60um.gdf): convergence over 15-150 nm
+tstart = floor((zcen - Ldip/2 - s0 - 0.03)/dz)*dz/c ;
+tout(tstart, zstop/c, dz/c) ;

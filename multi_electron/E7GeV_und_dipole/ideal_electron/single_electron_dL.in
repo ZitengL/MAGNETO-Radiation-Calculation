@@ -1,0 +1,40 @@
+# Same as single_electron.in, but the dipole moved downstream by dL (command line); check of dipole_distance_scan.m (2026-11-05).
+# Ideal electron (on axis, no angle, nominal energy) through the SLAC gap-6 undulator AND the dipole, 7 GeV kinetic.
+# Beam line (user, 2026-11-03 / 11-05): start z = 0, undulator centre z = 0.4 m, dipole centre z = 1.3144 m.
+# Undulator: same field map as E7GeV_gap6und_N2000, wiggle in the xz plane.
+#   und_s = +1: same orientation as before; und_s = -1: undulator turned over (rotated 180 deg about z).
+# Dipole: rectmagnet, effective length 1 m, B = 0.13 T, field along WCS -x => electron bent UP (+y).
+#   Enge fringe b1 = 2/gap with gap = 35 mm: GPT sets the fringe to 0 beyond 10/b1 = 0.175 m from each edge,
+#   i.e. the dipole field starts at z = 0.6394 m, after the end of the undulator map (0.6238 m).
+# Output step dz [m] and und_s are given on the command line (run.bat).
+
+# ---------------- Beam ----------------
+E0   = 7e9 ;                          # kinetic energy [eV]
+G    = 1 + E0*abs(qe)/(me*c*c) ;      # Lorentz factor
+GB   = sqrt(G*G - 1) ;
+setstartpar("beam", 0,0,0, 0,0,GB, me,qe,1) ;
+
+# ---------------- Undulator field map ----------------
+zund = 0.4 ;
+zmap = 0.22381 ;
+# und_s = +1: ECS x-axis = WCS +y, y-axis = WCS -x (as before); und_s = -1: rotated by 180 deg about z
+map3D_B("wcs", 0,0,zund, 0,und_s,0, -und_s,0,0, "../../../../field_map/gap6_laplace_0p5mm.gdf", "x","y","z","Bx","By","Bz", 1) ;
+
+# ---------------- Dipole ----------------
+zcen = 1.3144 + dL ;
+Ldip = 1.0 ;
+Bdip = 0.13 ;
+gap  = 0.035 ;
+b1   = 2/gap ;
+adip = 0.2 ;                          # width of the field region in WCS y [m]
+# ECS: origin (0,0,zcen); new x-axis = WCS +y, new y-axis = WCS -x => field along WCS -x, electron bent up
+rectmagnet("wcs", 0,0,zcen, 0,1,0, -1,0,0, adip, Ldip, Bdip, 0, b1, 0) ;
+
+# ---------------- Accuracy ----------------
+accuracy(6) ;
+
+# ---------------- Output ----------------
+# from z = 0.15 m (before the undulator map) to 5 cm after the dipole fringe field ends
+zstop  = zcen + Ldip/2 + 10/b1 + 0.05 ;
+tstart = floor(0.15/dz)*dz/c ;
+tout(tstart, zstop/c, dz/c) ;

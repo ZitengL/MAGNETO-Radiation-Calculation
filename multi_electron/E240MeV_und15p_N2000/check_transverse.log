@@ -1,0 +1,6 @@
+﻿exit horizontal angle vs x0: slope 1.1517e-01 rad/m (fit residual rms 9.95e-07 rad)
+exit z deviation = -2.4632e-02 * x0^2 + -1.5755e+00 * y0^2 + 5.88e-10  [m]; residual rms 2.42e-10 m
+  -> at x0 = 40 um: -0.039 nm; at y0 = 40 um: -2.521 nm
+rms of exit z deviation over the 200 particles: 0.759 nm (sigma_z = 10 nm)
+peak |By| seen = 0.351365 T +6.0328e+03 T/m^2 * x0^2 +4.6633e+05 T/m^2 * y0^2
+  -> relative change at 40 um: x 2.75e-05, y 2.12e-03

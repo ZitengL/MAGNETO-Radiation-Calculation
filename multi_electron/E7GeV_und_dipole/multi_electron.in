@@ -1,0 +1,34 @@
+# SLAC gap-6 undulator + dipole together, 7 GeV kinetic, 100 pC as 5e4 macro-particles, no space charge.
+# Tracked in 25 chunks of 2000 (no space charge -> particles independent, identical to one run);
+# the chunk is written to chunk_beam.gdf by matlab/radiation_multi_electron/E7GeV_und_dipole/run_combined.m.
+# Beam line: start z = 0, undulator centre z = 0.4 m, dipole centre z = 1.3144 m (user, 2026-11-03).
+# Undulator: field map as E7GeV_gap6und_N2000 but turned over (rotated 180 deg about z), x wiggle.
+# Dipole: rectmagnet, effective length 1 m, B = 0.13 T, field along WCS -x => electrons bent up (+y);
+#   Enge fringe b1 = 2/gap, gap = 35 mm: the fringe is 0 beyond 10/b1 = 0.175 m from each edge, so the dipole
+#   field starts at z = 0.6394 m, after the end of the undulator map (0.6238 m).
+# Output step dz [m] on the command line (run.bat).
+
+# ---------------- Beam ----------------
+setfile("beam", "chunk_beam.gdf") ;
+
+# ---------------- Undulator field map (turned over) ----------------
+zund = 0.4 ;
+zmap = 0.22381 ;
+map3D_B("wcs", 0,0,zund, 0,-1,0, 1,0,0, "../../../field_map/gap6_laplace_0p5mm.gdf", "x","y","z","Bx","By","Bz", 1) ;
+
+# ---------------- Dipole ----------------
+zcen = 1.3144 ;
+Ldip = 1.0 ;
+Bdip = 0.13 ;
+gap  = 0.035 ;
+b1   = 2/gap ;
+adip = 0.2 ;
+rectmagnet("wcs", 0,0,zcen, 0,1,0, -1,0,0, adip, Ldip, Bdip, 0, b1, 0) ;
+
+# ---------------- Accuracy ----------------
+accuracy(6) ;
+
+# ---------------- Output ----------------
+zstop  = zcen + Ldip/2 + 10/b1 + 0.05 ;
+tstart = floor(0.15/dz)*dz/c ;
+tout(tstart, zstop/c, dz/c) ;
