@@ -1,0 +1,16 @@
+﻿particles 1-200 done, 2.9 min
+particles 201-400 done, 5.5 min
+particles 401-600 done, 8.2 min
+particles 601-800 done, 10.8 min
+particles 801-1000 done, 13.2 min
+particles 1001-1200 done, 15.6 min
+particles 1201-1400 done, 18.0 min
+particles 1401-1600 done, 20.3 min
+particles 1601-1800 done, 22.7 min
+particles 1801-2000 done, 25.1 min
+per particle rms |E_GPT - E_trans| / |E_trans|: median 4.41e-04, max 7.11e-03
+  correlation with y0^2 1.00, with x0^2 -0.05
+   15- 25 nm: |multi - translation|/env max 5.55e-03 (median 1.4e-03) | previous phase-only model max 1.04e-01 | incoherent sums max 2.2e-03
+   25- 40 nm: |multi - translation|/env max 2.33e-03 (median 6.4e-04) | previous phase-only model max 2.47e-02 | incoherent sums max 1.4e-03
+   40- 70 nm: |multi - translation|/env max 8.83e-04 (median 4.5e-04) | previous phase-only model max 1.66e-03 | incoherent sums max 8.5e-04
+   70-150 nm: |multi - translation|/env max 6.01e-04 (median 3.0e-04) | previous phase-only model max 5.67e-04 | incoherent sums max 6.2e-04

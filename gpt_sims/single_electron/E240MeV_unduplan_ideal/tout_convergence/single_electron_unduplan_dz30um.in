@@ -1,0 +1,32 @@
+# Single electron through an IDEAL planar undulator (GPT element unduplan), 240 MeV
+# Purpose: analytic benchmark. Same lambda_u and same effective K as the real 15-period map
+# (gpt_sims/single_electron/E240MeV_und15p_paraxial, K from the <beta_z> method).
+# unduplan field: B = Bu*Fs*(0, cosh(ku*y)*sin(ku*z), sinh(ku*y)*cos(ku*z)), centred at the ECS origin,
+# Fs = (trim1, trim2, 1, ..., 1, trim2, trim1) per half period -> Nu = 16 gives 15 effective periods.
+# Field along ECS y = WCS y -> horizontal (x) wiggle, as in the real-map runs. Undulator centre z = 1 m.
+
+# ---------------- Beam ----------------
+E0   = 240e6 ;                        # kinetic energy [eV]
+G    = 1 + E0*abs(qe)/(me*c*c) ;      # Lorentz factor (kinetic energy -> gamma)
+GB   = sqrt(G*G - 1) ;                # gamma*beta
+
+# One electron at the origin, moving along +z with no transverse momentum
+setstartpar("beam", 0,0,0, 0,0,GB, me,qe,1) ;
+
+# ---------------- Ideal undulator ----------------
+zund = 1.0 ;                          # undulator centre [m]
+Nu   = 16 ;                           # total number of periods (incl. the 1/4, 3/4 end half periods)
+lamu = 0.030472767 ;                  # period [m] (real map)
+Kpk  = 0.980309 ;                     # peak K (real map, <beta_z> method)
+Bu   = Kpk*2*pi*me*c/(abs(qe)*lamu) ; # peak field [T], K = e*Bu*lamu/(2*pi*me*c)
+unduplan("wcs","z",zund, Nu, lamu, Bu, 0.25, 0.75) ;
+
+# ---------------- Accuracy ----------------
+accuracy(6) ;
+
+# ---------------- Output ----------------
+# One output every c*dt = 30 um from z ~ 0.65 m, stop 5 cm after the end of the field.
+zstop  = zund + Nu*lamu/2 + 0.05 ;
+dz     = 30e-6 ;    # convergence copy: only dz changed
+tstart = floor(0.65/dz)*dz/c ;
+tout(tstart, zstop/c, dz/c) ;

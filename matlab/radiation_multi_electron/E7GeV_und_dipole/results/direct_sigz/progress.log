@@ -1,0 +1,175 @@
+sz   20 nm, chunk  1/25: GPT 23 s, total 341 s  [11-06 21:29]
+sz   20 nm, chunk  2/25: GPT 24 s, total 313 s  [11-06 21:34]
+sz   20 nm, chunk  3/25: GPT 28 s, total 354 s  [11-06 21:40]
+sz   20 nm, chunk  4/25: GPT 23 s, total 321 s  [11-06 21:45]
+sz   20 nm, chunk  5/25: GPT 25 s, total 357 s  [11-06 21:51]
+sz   20 nm, chunk  6/25: GPT 29 s, total 404 s  [11-06 21:58]
+sz   20 nm, chunk  7/25: GPT 25 s, total 335 s  [11-06 22:03]
+sz   20 nm, chunk  8/25: GPT 21 s, total 306 s  [11-06 22:08]
+sz   20 nm, chunk  9/25: GPT 20 s, total 301 s  [11-06 22:13]
+sz   20 nm, chunk 10/25: GPT 20 s, total 292 s  [11-06 22:18]
+sz   20 nm, chunk 11/25: GPT 20 s, total 296 s  [11-06 22:23]
+sz   20 nm, chunk 12/25: GPT 20 s, total 294 s  [11-06 22:28]
+sz   20 nm, chunk 13/25: GPT 20 s, total 293 s  [11-06 22:33]
+sz   20 nm, chunk 14/25: GPT 20 s, total 301 s  [11-06 22:38]
+sz   20 nm, chunk 15/25: GPT 21 s, total 305 s  [11-06 22:43]
+sz   20 nm, chunk 16/25: GPT 20 s, total 315 s  [11-06 22:48]
+sz   20 nm, chunk 17/25: GPT 20 s, total 309 s  [11-06 22:54]
+sz   20 nm, chunk 18/25: GPT 23 s, total 323 s  [11-06 22:59]
+sz   20 nm, chunk 19/25: GPT 23 s, total 311 s  [11-06 23:04]
+sz   20 nm, chunk 20/25: GPT 26 s, total 310 s  [11-06 23:09]
+sz   20 nm, chunk 21/25: GPT 20 s, total 349 s  [11-06 23:15]
+sz   20 nm, chunk 22/25: GPT 36 s, total 358 s  [11-06 23:21]
+sz   20 nm, chunk 23/25: GPT 23 s, total 334 s  [11-06 23:27]
+sz   20 nm, chunk 24/25: GPT 23 s, total 333 s  [11-06 23:32]
+sz   20 nm, chunk 25/25: GPT 22 s, total 329 s  [11-06 23:38]
+sz   30 nm, chunk  1/25: GPT 23 s, total 336 s  [11-06 23:43]
+sz   30 nm, chunk  2/25: GPT 24 s, total 339 s  [11-06 23:49]
+sz   30 nm, chunk  3/25: GPT 22 s, total 328 s  [11-06 23:54]
+sz   30 nm, chunk  4/25: GPT 22 s, total 322 s  [11-07 00:00]
+sz   30 nm, chunk  5/25: GPT 23 s, total 324 s  [11-07 00:05]
+sz   30 nm, chunk  6/25: GPT 22 s, total 337 s  [11-07 00:11]
+sz   30 nm, chunk  7/25: GPT 23 s, total 337 s  [11-07 00:16]
+sz   30 nm, chunk  8/25: GPT 23 s, total 326 s  [11-07 00:22]
+sz   30 nm, chunk  9/25: GPT 22 s, total 322 s  [11-07 00:27]
+sz   30 nm, chunk 10/25: GPT 24 s, total 321 s  [11-07 00:33]
+sz   30 nm, chunk 11/25: GPT 21 s, total 327 s  [11-07 00:38]
+sz   30 nm, chunk 12/25: GPT 22 s, total 319 s  [11-07 00:43]
+sz   30 nm, chunk 13/25: GPT 22 s, total 323 s  [11-07 00:49]
+sz   30 nm, chunk 14/25: GPT 23 s, total 301 s  [11-07 00:54]
+sz   30 nm, chunk 15/25: GPT 38 s, total 442 s  [11-07 01:02]  (E7GeV_und_dipole)
+sz  100 nm, chunk  1/25: GPT 37 s, total 442 s  [11-07 01:02]  (E7GeV_und_dipole_w2)
+sz   30 nm, chunk 16/25: GPT 36 s, total 401 s  [11-07 01:08]  (E7GeV_und_dipole)
+sz  100 nm, chunk  2/25: GPT 36 s, total 402 s  [11-07 01:08]  (E7GeV_und_dipole_w2)
+sz   30 nm, chunk 17/25: GPT 30 s, total 386 s  [11-07 01:15]  (E7GeV_und_dipole)
+sz  100 nm, chunk  3/25: GPT 30 s, total 387 s  [11-07 01:15]  (E7GeV_und_dipole_w2)
+sz   30 nm, chunk 18/25: GPT 30 s, total 377 s  [11-07 01:21]  (E7GeV_und_dipole)
+sz  100 nm, chunk  4/25: GPT 31 s, total 377 s  [11-07 01:21]  (E7GeV_und_dipole_w2)
+sz   30 nm, chunk 19/25: GPT 30 s, total 385 s  [11-07 01:28]  (E7GeV_und_dipole)
+sz  100 nm, chunk  5/25: GPT 30 s, total 385 s  [11-07 01:28]  (E7GeV_und_dipole_w2)
+sz   30 nm, chunk 20/25: GPT 30 s, total 374 s  [11-07 01:34]  (E7GeV_und_dipole)
+sz  100 nm, chunk  6/25: GPT 31 s, total 374 s  [11-07 01:34]  (E7GeV_und_dipole_w2)
+sz   30 nm, chunk 21/25: GPT 30 s, total 387 s  [11-07 01:40]  (E7GeV_und_dipole)
+sz  100 nm, chunk  7/25: GPT 30 s, total 386 s  [11-07 01:40]  (E7GeV_und_dipole_w2)
+sz   30 nm, chunk 22/25: GPT 30 s, total 375 s  [11-07 01:46]  (E7GeV_und_dipole)
+sz  100 nm, chunk  8/25: GPT 30 s, total 376 s  [11-07 01:47]  (E7GeV_und_dipole_w2)
+sz   30 nm, chunk 23/25: GPT 29 s, total 379 s  [11-07 01:53]  (E7GeV_und_dipole)
+sz  100 nm, chunk  9/25: GPT 29 s, total 380 s  [11-07 01:53]  (E7GeV_und_dipole_w2)
+sz   30 nm, chunk 24/25: GPT 30 s, total 376 s  [11-07 01:59]  (E7GeV_und_dipole)
+sz  100 nm, chunk 10/25: GPT 30 s, total 376 s  [11-07 01:59]  (E7GeV_und_dipole_w2)
+sz   30 nm, chunk 25/25: GPT 28 s, total 379 s  [11-07 02:05]  (E7GeV_und_dipole)
+sz  100 nm, chunk 11/25: GPT 29 s, total 379 s  [11-07 02:05]  (E7GeV_und_dipole_w2)
+sz   50 nm, chunk  1/25: GPT 30 s, total 379 s  [11-07 02:12]  (E7GeV_und_dipole)
+sz  100 nm, chunk 12/25: GPT 31 s, total 379 s  [11-07 02:12]  (E7GeV_und_dipole_w2)
+sz   50 nm, chunk  2/25: GPT 29 s, total 373 s  [11-07 02:18]  (E7GeV_und_dipole)
+sz  100 nm, chunk 13/25: GPT 31 s, total 374 s  [11-07 02:18]  (E7GeV_und_dipole_w2)
+sz   50 nm, chunk  3/25: GPT 29 s, total 377 s  [11-07 02:24]  (E7GeV_und_dipole)
+sz  100 nm, chunk 14/25: GPT 31 s, total 377 s  [11-07 02:24]  (E7GeV_und_dipole_w2)
+sz   50 nm, chunk  4/25: GPT 30 s, total 373 s  [11-07 02:30]  (E7GeV_und_dipole)
+sz  100 nm, chunk 15/25: GPT 31 s, total 372 s  [11-07 02:30]  (E7GeV_und_dipole_w2)
+sz   50 nm, chunk  5/25: GPT 30 s, total 376 s  [11-07 02:37]  (E7GeV_und_dipole)
+sz  100 nm, chunk 16/25: GPT 31 s, total 377 s  [11-07 02:37]  (E7GeV_und_dipole_w2)
+sz   50 nm, chunk  6/25: GPT 30 s, total 381 s  [11-07 02:43]  (E7GeV_und_dipole)
+sz  100 nm, chunk 17/25: GPT 30 s, total 381 s  [11-07 02:43]  (E7GeV_und_dipole_w2)
+sz   50 nm, chunk  7/25: GPT 30 s, total 376 s  [11-07 02:49]  (E7GeV_und_dipole)
+sz  100 nm, chunk 18/25: GPT 30 s, total 376 s  [11-07 02:49]  (E7GeV_und_dipole_w2)
+sz   50 nm, chunk  8/25: GPT 30 s, total 375 s  [11-07 02:56]  (E7GeV_und_dipole)
+sz  100 nm, chunk 19/25: GPT 31 s, total 375 s  [11-07 02:56]  (E7GeV_und_dipole_w2)
+sz   50 nm, chunk  9/25: GPT 30 s, total 376 s  [11-07 03:02]  (E7GeV_und_dipole)
+sz  100 nm, chunk 20/25: GPT 30 s, total 376 s  [11-07 03:02]  (E7GeV_und_dipole_w2)
+sz   50 nm, chunk 10/25: GPT 29 s, total 379 s  [11-07 03:08]  (E7GeV_und_dipole)
+sz  100 nm, chunk 21/25: GPT 29 s, total 379 s  [11-07 03:08]  (E7GeV_und_dipole_w2)
+sz   50 nm, chunk 11/25: GPT 29 s, total 370 s  [11-07 03:14]  (E7GeV_und_dipole)
+sz  100 nm, chunk 22/25: GPT 29 s, total 371 s  [11-07 03:14]  (E7GeV_und_dipole_w2)
+sz   50 nm, chunk 12/25: GPT 29 s, total 374 s  [11-07 03:21]  (E7GeV_und_dipole)
+sz  100 nm, chunk 23/25: GPT 30 s, total 373 s  [11-07 03:21]  (E7GeV_und_dipole_w2)
+sz   50 nm, chunk 13/25: GPT 30 s, total 372 s  [11-07 03:27]  (E7GeV_und_dipole)
+sz  100 nm, chunk 24/25: GPT 31 s, total 373 s  [11-07 03:27]  (E7GeV_und_dipole_w2)
+sz   50 nm, chunk 14/25: GPT 30 s, total 375 s  [11-07 03:33]  (E7GeV_und_dipole)
+sz  100 nm, chunk 25/25: GPT 30 s, total 375 s  [11-07 03:33]  (E7GeV_und_dipole_w2)
+sz   50 nm, chunk 15/25: GPT 30 s, total 377 s  [11-07 03:39]  (E7GeV_und_dipole)
+sz  150 nm, chunk  1/25: GPT 30 s, total 378 s  [11-07 03:39]  (E7GeV_und_dipole_w2)
+sz   50 nm, chunk 16/25: GPT 29 s, total 374 s  [11-07 03:46]  (E7GeV_und_dipole)
+sz  150 nm, chunk  2/25: GPT 31 s, total 375 s  [11-07 03:46]  (E7GeV_und_dipole_w2)
+sz   50 nm, chunk 17/25: GPT 29 s, total 375 s  [11-07 03:52]  (E7GeV_und_dipole)
+sz  150 nm, chunk  3/25: GPT 30 s, total 375 s  [11-07 03:52]  (E7GeV_und_dipole_w2)
+sz   50 nm, chunk 18/25: GPT 30 s, total 371 s  [11-07 03:58]  (E7GeV_und_dipole)
+sz  150 nm, chunk  4/25: GPT 30 s, total 372 s  [11-07 03:58]  (E7GeV_und_dipole_w2)
+sz   50 nm, chunk 19/25: GPT 29 s, total 374 s  [11-07 04:04]  (E7GeV_und_dipole)
+sz  150 nm, chunk  5/25: GPT 30 s, total 375 s  [11-07 04:04]  (E7GeV_und_dipole_w2)
+sz   50 nm, chunk 20/25: GPT 29 s, total 374 s  [11-07 04:10]  (E7GeV_und_dipole)
+sz  150 nm, chunk  6/25: GPT 28 s, total 373 s  [11-07 04:11]  (E7GeV_und_dipole_w2)
+sz   50 nm, chunk 21/25: GPT 30 s, total 379 s  [11-07 04:17]  (E7GeV_und_dipole)
+sz  150 nm, chunk  7/25: GPT 30 s, total 379 s  [11-07 04:17]  (E7GeV_und_dipole_w2)
+sz   50 nm, chunk 22/25: GPT 29 s, total 372 s  [11-07 04:23]  (E7GeV_und_dipole)
+sz  150 nm, chunk  8/25: GPT 29 s, total 373 s  [11-07 04:23]  (E7GeV_und_dipole_w2)
+sz   50 nm, chunk 23/25: GPT 29 s, total 372 s  [11-07 04:29]  (E7GeV_und_dipole)
+sz  150 nm, chunk  9/25: GPT 30 s, total 373 s  [11-07 04:29]  (E7GeV_und_dipole_w2)
+sz   50 nm, chunk 24/25: GPT 29 s, total 374 s  [11-07 04:35]  (E7GeV_und_dipole)
+sz  150 nm, chunk 10/25: GPT 30 s, total 374 s  [11-07 04:35]  (E7GeV_und_dipole_w2)
+sz   50 nm, chunk 25/25: GPT 29 s, total 375 s  [11-07 04:42]  (E7GeV_und_dipole)
+sz  150 nm, chunk 11/25: GPT 30 s, total 374 s  [11-07 04:42]  (E7GeV_und_dipole_w2)
+sz   70 nm, chunk  1/25: GPT 28 s, total 371 s  [11-07 04:48]  (E7GeV_und_dipole)
+sz  150 nm, chunk 12/25: GPT 29 s, total 371 s  [11-07 04:48]  (E7GeV_und_dipole_w2)
+sz   70 nm, chunk  2/25: GPT 30 s, total 376 s  [11-07 04:54]  (E7GeV_und_dipole)
+sz  150 nm, chunk 13/25: GPT 31 s, total 377 s  [11-07 04:54]  (E7GeV_und_dipole_w2)
+sz   70 nm, chunk  3/25: GPT 29 s, total 373 s  [11-07 05:00]  (E7GeV_und_dipole)
+sz  150 nm, chunk 14/25: GPT 30 s, total 373 s  [11-07 05:00]  (E7GeV_und_dipole_w2)
+sz   70 nm, chunk  4/25: GPT 30 s, total 376 s  [11-07 05:07]  (E7GeV_und_dipole)
+sz  150 nm, chunk 15/25: GPT 30 s, total 374 s  [11-07 05:07]  (E7GeV_und_dipole_w2)
+sz   70 nm, chunk  5/25: GPT 29 s, total 370 s  [11-07 05:13]  (E7GeV_und_dipole)
+sz  150 nm, chunk 16/25: GPT 29 s, total 371 s  [11-07 05:13]  (E7GeV_und_dipole_w2)
+sz   70 nm, chunk  6/25: GPT 29 s, total 374 s  [11-07 05:19]  (E7GeV_und_dipole)
+sz  150 nm, chunk 17/25: GPT 30 s, total 373 s  [11-07 05:19]  (E7GeV_und_dipole_w2)
+sz   70 nm, chunk  7/25: GPT 30 s, total 374 s  [11-07 05:25]  (E7GeV_und_dipole)
+sz  150 nm, chunk 18/25: GPT 30 s, total 374 s  [11-07 05:25]  (E7GeV_und_dipole_w2)
+sz   70 nm, chunk  8/25: GPT 29 s, total 373 s  [11-07 05:31]  (E7GeV_und_dipole)
+sz  150 nm, chunk 19/25: GPT 30 s, total 374 s  [11-07 05:31]  (E7GeV_und_dipole_w2)
+sz   70 nm, chunk  9/25: GPT 30 s, total 378 s  [11-07 05:38]  (E7GeV_und_dipole)
+sz  150 nm, chunk 20/25: GPT 30 s, total 378 s  [11-07 05:38]  (E7GeV_und_dipole_w2)
+sz   70 nm, chunk 10/25: GPT 29 s, total 371 s  [11-07 05:44]  (E7GeV_und_dipole)
+sz  150 nm, chunk 21/25: GPT 30 s, total 372 s  [11-07 05:44]  (E7GeV_und_dipole_w2)
+sz   70 nm, chunk 11/25: GPT 28 s, total 373 s  [11-07 05:50]  (E7GeV_und_dipole)
+sz  150 nm, chunk 22/25: GPT 29 s, total 374 s  [11-07 05:50]  (E7GeV_und_dipole_w2)
+sz   70 nm, chunk 12/25: GPT 29 s, total 374 s  [11-07 05:56]  (E7GeV_und_dipole)
+sz  150 nm, chunk 23/25: GPT 30 s, total 374 s  [11-07 05:56]  (E7GeV_und_dipole_w2)
+sz   70 nm, chunk 13/25: GPT 29 s, total 384 s  [11-07 06:03]  (E7GeV_und_dipole)
+sz  150 nm, chunk 24/25: GPT 30 s, total 384 s  [11-07 06:03]  (E7GeV_und_dipole_w2)
+sz   70 nm, chunk 14/25: GPT 29 s, total 375 s  [11-07 06:09]  (E7GeV_und_dipole)
+sz  150 nm, chunk 25/25: GPT 30 s, total 373 s  [11-07 06:09]  (E7GeV_und_dipole_w2)
+sz   70 nm, chunk 15/25: GPT 30 s, total 397 s  [11-07 06:16]  (E7GeV_und_dipole)
+sz  200 nm, chunk  1/25: GPT 30 s, total 396 s  [11-07 06:16]  (E7GeV_und_dipole_w2)
+sz   70 nm, chunk 16/25: GPT 33 s, total 381 s  [11-07 06:22]  (E7GeV_und_dipole)
+sz  200 nm, chunk  2/25: GPT 32 s, total 383 s  [11-07 06:22]  (E7GeV_und_dipole_w2)
+sz   70 nm, chunk 17/25: GPT 29 s, total 371 s  [11-07 06:28]  (E7GeV_und_dipole)
+sz  200 nm, chunk  3/25: GPT 30 s, total 373 s  [11-07 06:28]  (E7GeV_und_dipole_w2)
+sz   70 nm, chunk 18/25: GPT 29 s, total 372 s  [11-07 06:34]  (E7GeV_und_dipole)
+sz  200 nm, chunk  4/25: GPT 30 s, total 371 s  [11-07 06:34]  (E7GeV_und_dipole_w2)
+sz   70 nm, chunk 19/25: GPT 30 s, total 375 s  [11-07 06:41]  (E7GeV_und_dipole)
+sz  200 nm, chunk  5/25: GPT 31 s, total 374 s  [11-07 06:41]  (E7GeV_und_dipole_w2)
+sz   70 nm, chunk 20/25: GPT 29 s, total 372 s  [11-07 06:47]  (E7GeV_und_dipole)
+sz  200 nm, chunk  6/25: GPT 30 s, total 372 s  [11-07 06:47]  (E7GeV_und_dipole_w2)
+sz   70 nm, chunk 21/25: GPT 29 s, total 378 s  [11-07 06:53]  (E7GeV_und_dipole)
+sz  200 nm, chunk  7/25: GPT 31 s, total 379 s  [11-07 06:53]  (E7GeV_und_dipole_w2)
+sz   70 nm, chunk 22/25: GPT 28 s, total 382 s  [11-07 06:59]  (E7GeV_und_dipole)
+sz  200 nm, chunk  8/25: GPT 29 s, total 382 s  [11-07 07:00]  (E7GeV_und_dipole_w2)
+sz   70 nm, chunk 23/25: GPT 27 s, total 387 s  [11-07 07:06]  (E7GeV_und_dipole)
+sz  200 nm, chunk  9/25: GPT 29 s, total 388 s  [11-07 07:06]  (E7GeV_und_dipole_w2)
+sz   70 nm, chunk 24/25: GPT 30 s, total 374 s  [11-07 07:12]  (E7GeV_und_dipole)
+sz  200 nm, chunk 10/25: GPT 30 s, total 373 s  [11-07 07:12]  (E7GeV_und_dipole_w2)
+sz   70 nm, chunk 25/25: GPT 28 s, total 371 s  [11-07 07:18]  (E7GeV_und_dipole)
+sz  200 nm, chunk 11/25: GPT 29 s, total 369 s  [11-07 07:18]  (E7GeV_und_dipole_w2)
+sz  200 nm, chunk 12/25: GPT 20 s, total 250 s  [11-07 07:23]  (E7GeV_und_dipole_w2)
+sz  200 nm, chunk 13/25: GPT 19 s, total 247 s  [11-07 07:27]  (E7GeV_und_dipole_w2)
+sz  200 nm, chunk 14/25: GPT 19 s, total 247 s  [11-07 07:31]  (E7GeV_und_dipole_w2)
+sz  200 nm, chunk 15/25: GPT 19 s, total 248 s  [11-07 07:35]  (E7GeV_und_dipole_w2)
+sz  200 nm, chunk 16/25: GPT 18 s, total 257 s  [11-07 07:39]  (E7GeV_und_dipole_w2)
+sz  200 nm, chunk 17/25: GPT 21 s, total 267 s  [11-07 07:44]  (E7GeV_und_dipole_w2)
+sz  200 nm, chunk 18/25: GPT 17 s, total 247 s  [11-07 07:48]  (E7GeV_und_dipole_w2)
+sz  200 nm, chunk 19/25: GPT 19 s, total 247 s  [11-07 07:52]  (E7GeV_und_dipole_w2)
+sz  200 nm, chunk 20/25: GPT 19 s, total 248 s  [11-07 07:56]  (E7GeV_und_dipole_w2)
+sz  200 nm, chunk 21/25: GPT 19 s, total 247 s  [11-07 08:00]  (E7GeV_und_dipole_w2)
+sz  200 nm, chunk 22/25: GPT 18 s, total 247 s  [11-07 08:04]  (E7GeV_und_dipole_w2)
+sz  200 nm, chunk 23/25: GPT 19 s, total 248 s  [11-07 08:08]  (E7GeV_und_dipole_w2)
+sz  200 nm, chunk 24/25: GPT 20 s, total 274 s  [11-07 08:13]  (E7GeV_und_dipole_w2)
+sz  200 nm, chunk 25/25: GPT 18 s, total 248 s  [11-07 08:17]  (E7GeV_und_dipole_w2)

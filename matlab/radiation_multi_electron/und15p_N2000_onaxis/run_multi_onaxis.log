@@ -1,0 +1,11 @@
+﻿batch  1 / 10 (IDs 1-200): read 23 s, total 175 s; 2.9 min elapsed
+batch  2 / 10 (IDs 201-400): read 21 s, total 168 s; 5.7 min elapsed
+batch  3 / 10 (IDs 401-600): read 20 s, total 167 s; 8.5 min elapsed
+batch  4 / 10 (IDs 601-800): read 22 s, total 168 s; 11.3 min elapsed
+batch  5 / 10 (IDs 801-1000): read 19 s, total 166 s; 14.1 min elapsed
+batch  6 / 10 (IDs 1001-1200): read 23 s, total 171 s; 16.9 min elapsed
+batch  7 / 10 (IDs 1201-1400): read 21 s, total 169 s; 19.7 min elapsed
+batch  8 / 10 (IDs 1401-1600): read 21 s, total 164 s; 22.5 min elapsed
+batch  9 / 10 (IDs 1601-1800): read 21 s, total 172 s; 25.3 min elapsed
+batch 10 / 10 (IDs 1801-2000): read 21 s, total 168 s; 28.1 min elapsed
+Finished in 28.1 min

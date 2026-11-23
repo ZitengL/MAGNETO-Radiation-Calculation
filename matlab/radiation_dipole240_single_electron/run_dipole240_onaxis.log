@@ -1,0 +1,3 @@
+﻿3.75 vs 1.875 um within 1% (pointwise) for lambda >= 15.000 nm; 7.5 vs 1.875 um: >= 23.996 nm
+in the converged range: max |S_3.75/S_1.875 - 1| = 5.09e-05; S(lambda_acc)/max = 4.058e-06; max at 150.00 nm
+polarisation: max x/total 0.0e+00, max z/total 6.4e-13

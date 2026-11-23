@@ -1,0 +1,12 @@
+% (0, -2 mm, 5.9 m), x polarizer, 100 pC, DIRECT calculation: 5e4 macro-particles, new GPT run per sigma_z (E7GeV_und_dipole/results/direct_sigz/summary.mat).
+% W = raw energy in the band [J/sr] (macro-particle self term included, nothing subtracted), sd = jackknife (25 chunks), noise = pref sum_j|E_j|^2 in the band.
+% Mean noise floor: D1 2.5181e-02, D2 1.9997e-03 J/sr; real incoherent level = noise / nmacro (12483): D1 2.0172e-06, D2 1.6019e-07 J/sr.
+% Columns: 1 sigma_z_nm  2 W_D1(50-280nm)  3 sd_D1  4 noise_D1  5 W_D2(300-1000nm)  6 sd_D2  7 noise_D2
+  10.0 8.207274e+01 1.693e+00 2.5181e-02 1.457440e-01 2.350e-02 1.9997e-03
+  20.0 1.481903e+01 5.423e-01 2.5181e-02 1.348656e-01 2.266e-02 1.9997e-03
+  30.0 3.019228e+00 1.425e-01 2.5181e-02 1.184627e-01 2.107e-02 1.9997e-03
+  50.0 2.914516e-01 3.701e-02 2.5181e-02 7.884647e-02 1.661e-02 1.9997e-03
+  70.0 5.944247e-02 2.188e-02 2.5181e-02 4.432048e-02 1.180e-02 1.9997e-03
+ 100.0 2.604069e-02 1.083e-02 2.5181e-02 1.579930e-02 6.145e-03 1.9997e-03
+ 150.0 3.826409e-02 2.156e-02 2.5181e-02 5.075198e-03 2.520e-03 1.9997e-03
+ 200.0 2.995025e-02 1.512e-02 2.5181e-02 3.287025e-03 1.955e-03 1.9997e-03

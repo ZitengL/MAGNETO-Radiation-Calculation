@@ -1,0 +1,18 @@
+% Undulator, MAGNETO vs SRW (x+y), 15-150 nm, 5000 log-spaced points
+% theta_x_mrad  MAGNETO_peak_nm  SRW_peak_nm  MAGNETO_peak_J/(rad/s)/sr  max|Delta|/peak  max|Delta|/local_envelope  max|Delta|/MAGNETO_pointwise
+0.0 102.01353 102.01353 1.816360e-29 5.490e-05 5.570e-04 8.282e-02
+0.1 102.20166 102.20166 1.793722e-29 4.890e-05 1.543e-03 2.424e-02
+0.2 102.72080 102.72080 1.726196e-29 4.565e-05 1.185e-03 2.556e-02
+0.3 103.67145 103.67145 1.619189e-29 4.481e-05 1.044e-03 3.036e-02
+0.4 104.92047 104.92047 1.481012e-29 4.407e-05 7.413e-04 2.347e-01
+0.5 106.57653 106.57653 1.321475e-29 4.859e-05 9.095e-04 3.983e-02
+%
+% Dipole on axis, MAGNETO vs SRW (x+y)
+peak at 150.00 nm, 5.245831e-33 J/(rad/s)/sr; S(15 nm)/peak = 4.058e-06
+max |SRW-MAGNETO|/MAGNETO = 3.492e-03 (at 15.230 nm)
+max |SRW-LW(rad+vel)|/LW(rad+vel) = 2.175e-03
+   15- 20 nm: max |SRW-MAGNETO|/MAGNETO = 3.492e-03, max |SRW-LW(rad+vel)|/LW = 2.175e-03
+   20- 30 nm: max |SRW-MAGNETO|/MAGNETO = 1.623e-03, max |SRW-LW(rad+vel)|/LW = 2.419e-04
+   30- 50 nm: max |SRW-MAGNETO|/MAGNETO = 1.613e-03, max |SRW-LW(rad+vel)|/LW = 4.026e-05
+   50-100 nm: max |SRW-MAGNETO|/MAGNETO = 1.909e-03, max |SRW-LW(rad+vel)|/LW = 1.312e-05
+  100-150 nm: max |SRW-MAGNETO|/MAGNETO = 2.140e-03, max |SRW-LW(rad+vel)|/LW = 1.374e-05

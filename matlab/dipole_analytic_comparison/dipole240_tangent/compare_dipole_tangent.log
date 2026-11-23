@@ -1,0 +1,16 @@
+﻿bend 81.110371 mrad, tangent point P = (0, 1.014853 mm, 1.000041 m), direction 40.555185 mrad
+gamma 470.66442480, rho 1.234241 m, lambda_c 49.5855 nm; observers: 11 m -> (0, 0.406788, 11) m; 1 km -> (0, 40.5451, 1000.1778) m
+
+=== o11m: R_src = 10.0082 m
+checks: |hard 3.75/1.875 um - 1| max 5.5e-07; |Enge 3.75/1.875 um - 1| max 4.6e-07; |hard b1 1e5/1e6 - 1| max 2.8e-05; pi (x) / total max: hard 0.0e+00, Enge 0.0e+00
+   15- 25 nm: hard/analytic - 1 in [-1.48e-05, -8.24e-06]; Enge/analytic - 1 in [-1.39e-04, -7.29e-05]; Enge/hard - 1 in [-1.24e-04, -6.40e-05]
+   25- 40 nm: hard/analytic - 1 in [-8.97e-06, -3.33e-06]; Enge/analytic - 1 in [-7.29e-05, -3.29e-05]; Enge/hard - 1 in [-6.46e-05, -2.66e-05]
+   40- 70 nm: hard/analytic - 1 in [-1.60e-05, +7.74e-06]; Enge/analytic - 1 in [-3.29e-05, -1.36e-06]; Enge/hard - 1 in [-2.83e-05, +5.51e-06]
+   70-150 nm: hard/analytic - 1 in [-7.02e-05, +6.41e-05]; Enge/analytic - 1 in [-1.33e-06, +2.61e-05]; Enge/hard - 1 in [-4.42e-05, +9.17e-05]
+
+=== o1km: R_src = 1000.0000 m
+checks: |hard 3.75/1.875 um - 1| max 3.7e-06; |Enge 3.75/1.875 um - 1| max 4.0e-06; |hard b1 1e5/1e6 - 1| max 2.9e-05; pi (x) / total max: hard 0.0e+00, Enge 0.0e+00
+   15- 25 nm: hard/analytic - 1 in [-1.68e-05, -8.84e-06]; Enge/analytic - 1 in [-1.43e-04, -7.38e-05]; Enge/hard - 1 in [-1.26e-04, -6.42e-05]
+   25- 40 nm: hard/analytic - 1 in [-9.84e-06, -1.45e-06]; Enge/analytic - 1 in [-7.38e-05, -3.25e-05]; Enge/hard - 1 in [-6.50e-05, -2.28e-05]
+   40- 70 nm: hard/analytic - 1 in [-2.73e-05, +2.09e-05]; Enge/analytic - 1 in [-3.25e-05, -9.46e-07]; Enge/hard - 1 in [-3.12e-05, +2.62e-05]
+   70-150 nm: hard/analytic - 1 in [-1.09e-04, +1.02e-04]; Enge/analytic - 1 in [-9.31e-07, +2.67e-05]; Enge/hard - 1 in [-7.53e-05, +1.36e-04]

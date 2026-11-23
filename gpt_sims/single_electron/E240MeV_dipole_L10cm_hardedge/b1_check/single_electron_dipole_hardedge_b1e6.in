@@ -1,0 +1,34 @@
+# Single electron through a short HARD-EDGE dipole (rectmagnet with a very sharp Enge fringe), 240 MeV
+# "Ideal dipole" for the analytic comparison: identical to gpt_sims/single_electron/E240MeV_dipole_L10cm
+# (centre z = 1.0 m, effective length 0.1 m, |B| = 0.65 T along WCS -x, bend up, same field integral)
+# except the fringe: b1 = 1e6 1/m (fringe width ~ 1/b1) instead of 2/gap = 200 1/m (gap 1 cm).
+# GPT cuts the field to 0 at 10/b1 from each edge.
+
+# ---------------- Beam ----------------
+E0   = 240e6 ;                        # kinetic energy [eV]
+G    = 1 + E0*abs(qe)/(me*c*c) ;      # Lorentz factor (kinetic energy -> gamma)
+GB   = sqrt(G*G - 1) ;                # gamma*beta
+
+# One electron at the origin, moving along +z with no transverse momentum
+setstartpar("beam", 0,0,0, 0,0,GB, me,qe,1) ;
+
+# ---------------- Dipole ----------------
+zcen  = 1.0 ;                         # dipole centre [m]
+Ldip  = 0.1 ;                         # effective length along z [m]
+Bdip  = 0.65 ;                        # field [T]
+b1    = 1e6 ;                       # Enge coefficient [1/m]: hard edge
+adip  = 0.2 ;                         # width of the field region in WCS y [m]
+# ECS: origin (0,0,zcen); new x-axis = WCS +y, new y-axis = WCS -x
+# => rectmagnet field (along its own +y) points along WCS -x
+rectmagnet("wcs", 0,0,zcen, 0,1,0, -1,0,0, adip, Ldip, Bdip, 0, b1, 0) ;
+
+# ---------------- Accuracy ----------------
+accuracy(6) ;
+
+# ---------------- Output ----------------
+# Same output window as the Enge run: from z ~ 0.87 m to zstop = 1.15 m, one output every c*dt = 3.75 um.
+s0     = 0.05 ;                       # = 10/b1 of the Enge run (gap 1 cm), only used for the output window
+zstop  = zcen + Ldip/2 + s0 + 0.05 ;
+dz     = 3.75e-6 ;
+tstart = floor((zcen - Ldip/2 - s0 - 0.03)/dz)*dz/c ;
+tout(tstart, zstop/c, dz/c) ;

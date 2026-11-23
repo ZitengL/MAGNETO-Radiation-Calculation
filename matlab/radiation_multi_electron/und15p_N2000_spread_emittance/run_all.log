@@ -1,0 +1,195 @@
+﻿
+=== <repo>\matlab\radiation_multi_electron\und15p_N2000_spread_emittance\results\sd0_en0.mat (0.0 h elapsed)
+  free disk 60.0 GB
+  GPT 0.7 min
+  batch  1 / 10: read 26 s, total 374 s; 6.2 min elapsed; max |x|,|y| in the map so far 0.062 mm
+  batch  2 / 10: read 25 s, total 359 s; 12.2 min elapsed; max |x|,|y| in the map so far 0.075 mm
+  batch  3 / 10: read 20 s, total 354 s; 18.1 min elapsed; max |x|,|y| in the map so far 0.075 mm
+  batch  4 / 10: read 20 s, total 357 s; 24.1 min elapsed; max |x|,|y| in the map so far 0.084 mm
+  batch  5 / 10: read 23 s, total 354 s; 30.0 min elapsed; max |x|,|y| in the map so far 0.084 mm
+  batch  6 / 10: read 24 s, total 352 s; 35.8 min elapsed; max |x|,|y| in the map so far 0.084 mm
+  batch  7 / 10: read 22 s, total 353 s; 41.7 min elapsed; max |x|,|y| in the map so far 0.084 mm
+  batch  8 / 10: read 20 s, total 357 s; 47.7 min elapsed; max |x|,|y| in the map so far 0.084 mm
+  batch  9 / 10: read 20 s, total 332 s; 53.2 min elapsed; max |x|,|y| in the map so far 0.084 mm
+  batch 10 / 10: read 20 s, total 348 s; 59.0 min elapsed; max |x|,|y| in the map so far 0.084 mm
+  done in 59.0 min
+
+=== <repo>\matlab\radiation_multi_electron\und15p_N2000_spread_emittance\results\sd0p03_en0.mat (1.0 h elapsed)
+  free disk 56.2 GB
+  GPT 1.2 min
+  batch  1 / 10: read 35 s, total 455 s; 7.6 min elapsed; max |x|,|y| in the map so far 0.062 mm
+  batch  2 / 10: read 25 s, total 357 s; 13.5 min elapsed; max |x|,|y| in the map so far 0.075 mm
+  batch  3 / 10: read 21 s, total 368 s; 19.7 min elapsed; max |x|,|y| in the map so far 0.075 mm
+  batch  4 / 10: read 21 s, total 334 s; 25.2 min elapsed; max |x|,|y| in the map so far 0.084 mm
+  batch  5 / 10: read 21 s, total 327 s; 30.7 min elapsed; max |x|,|y| in the map so far 0.084 mm
+  batch  6 / 10: read 18 s, total 336 s; 36.3 min elapsed; max |x|,|y| in the map so far 0.084 mm
+  batch  7 / 10: read 25 s, total 353 s; 42.2 min elapsed; max |x|,|y| in the map so far 0.084 mm
+  batch  8 / 10: read 21 s, total 349 s; 48.0 min elapsed; max |x|,|y| in the map so far 0.084 mm
+  batch  9 / 10: read 20 s, total 340 s; 53.7 min elapsed; max |x|,|y| in the map so far 0.084 mm
+  batch 10 / 10: read 20 s, total 328 s; 59.1 min elapsed; max |x|,|y| in the map so far 0.084 mm
+  done in 59.1 min
+
+=== <repo>\matlab\radiation_multi_electron\und15p_N2000_spread_emittance\results\sd0p1_en0.mat (2.0 h elapsed)
+  free disk 52.5 GB
+  GPT 0.6 min
+  batch  1 / 10: read 20 s, total 381 s; 6.4 min elapsed; max |x|,|y| in the map so far 0.062 mm
+  batch  2 / 10: read 22 s, total 330 s; 11.9 min elapsed; max |x|,|y| in the map so far 0.075 mm
+  batch  3 / 10: read 21 s, total 342 s; 17.6 min elapsed; max |x|,|y| in the map so far 0.075 mm
+  batch  4 / 10: read 21 s, total 348 s; 23.4 min elapsed; max |x|,|y| in the map so far 0.084 mm
+  batch  5 / 10: read 22 s, total 333 s; 28.9 min elapsed; max |x|,|y| in the map so far 0.084 mm
+  batch  6 / 10: read 25 s, total 340 s; 34.6 min elapsed; max |x|,|y| in the map so far 0.084 mm
+  batch  7 / 10: read 22 s, total 360 s; 40.6 min elapsed; max |x|,|y| in the map so far 0.084 mm
+  batch  8 / 10: read 26 s, total 342 s; 46.3 min elapsed; max |x|,|y| in the map so far 0.084 mm
+  batch  9 / 10: read 22 s, total 325 s; 51.7 min elapsed; max |x|,|y| in the map so far 0.084 mm
+  batch 10 / 10: read 20 s, total 327 s; 57.2 min elapsed; max |x|,|y| in the map so far 0.084 mm
+  done in 57.2 min
+
+=== <repo>\matlab\radiation_multi_electron\und15p_N2000_spread_emittance\results\sd0p3_en0.mat (3.0 h elapsed)
+  free disk 48.8 GB
+  GPT 0.8 min
+  batch  1 / 10: read 21 s, total 344 s; 5.7 min elapsed; max |x|,|y| in the map so far 0.062 mm
+  batch  2 / 10: read 20 s, total 336 s; 11.3 min elapsed; max |x|,|y| in the map so far 0.075 mm
+  batch  3 / 10: read 20 s, total 327 s; 16.8 min elapsed; max |x|,|y| in the map so far 0.075 mm
+  batch  4 / 10: read 20 s, total 314 s; 22.0 min elapsed; max |x|,|y| in the map so far 0.084 mm
+  batch  5 / 10: read 20 s, total 328 s; 27.5 min elapsed; max |x|,|y| in the map so far 0.084 mm
+  batch  6 / 10: read 20 s, total 308 s; 32.6 min elapsed; max |x|,|y| in the map so far 0.084 mm
+  batch  7 / 10: read 21 s, total 321 s; 38.0 min elapsed; max |x|,|y| in the map so far 0.084 mm
+  batch  8 / 10: read 21 s, total 335 s; 43.5 min elapsed; max |x|,|y| in the map so far 0.084 mm
+  batch  9 / 10: read 21 s, total 317 s; 48.8 min elapsed; max |x|,|y| in the map so far 0.084 mm
+  batch 10 / 10: read 17 s, total 293 s; 53.7 min elapsed; max |x|,|y| in the map so far 0.084 mm
+  done in 53.7 min
+
+=== <repo>\matlab\radiation_multi_electron\und15p_N2000_spread_emittance\results\sd1_en0.mat (3.9 h elapsed)
+  free disk 45.2 GB
+  GPT 0.6 min
+  batch  1 / 10: read 18 s, total 307 s; 5.1 min elapsed; max |x|,|y| in the map so far 0.062 mm
+  batch  2 / 10: read 18 s, total 310 s; 10.3 min elapsed; max |x|,|y| in the map so far 0.075 mm
+  batch  3 / 10: read 17 s, total 319 s; 15.6 min elapsed; max |x|,|y| in the map so far 0.075 mm
+  batch  4 / 10: read 18 s, total 302 s; 20.6 min elapsed; max |x|,|y| in the map so far 0.084 mm
+  batch  5 / 10: read 17 s, total 310 s; 25.8 min elapsed; max |x|,|y| in the map so far 0.084 mm
+  batch  6 / 10: read 18 s, total 294 s; 30.7 min elapsed; max |x|,|y| in the map so far 0.084 mm
+  batch  7 / 10: read 18 s, total 291 s; 35.6 min elapsed; max |x|,|y| in the map so far 0.084 mm
+  batch  8 / 10: read 17 s, total 299 s; 40.5 min elapsed; max |x|,|y| in the map so far 0.084 mm
+  batch  9 / 10: read 18 s, total 323 s; 45.9 min elapsed; max |x|,|y| in the map so far 0.084 mm
+  batch 10 / 10: read 17 s, total 302 s; 51.0 min elapsed; max |x|,|y| in the map so far 0.084 mm
+  done in 51.0 min
+
+=== <repo>\matlab\radiation_multi_electron\und15p_N2000_spread_emittance\results\sd3_en0.mat (4.7 h elapsed)
+  free disk 41.5 GB
+  GPT 0.6 min
+  batch  1 / 10: read 19 s, total 336 s; 5.6 min elapsed; max |x|,|y| in the map so far 0.061 mm
+  batch  2 / 10: read 19 s, total 313 s; 10.8 min elapsed; max |x|,|y| in the map so far 0.075 mm
+  batch  3 / 10: read 18 s, total 304 s; 15.9 min elapsed; max |x|,|y| in the map so far 0.075 mm
+  batch  4 / 10: read 17 s, total 293 s; 20.8 min elapsed; max |x|,|y| in the map so far 0.084 mm
+  batch  5 / 10: read 18 s, total 314 s; 26.0 min elapsed; max |x|,|y| in the map so far 0.084 mm
+  batch  6 / 10: read 18 s, total 298 s; 31.0 min elapsed; max |x|,|y| in the map so far 0.084 mm
+  batch  7 / 10: read 17 s, total 292 s; 35.8 min elapsed; max |x|,|y| in the map so far 0.084 mm
+  batch  8 / 10: read 18 s, total 301 s; 40.9 min elapsed; max |x|,|y| in the map so far 0.084 mm
+  batch  9 / 10: read 18 s, total 296 s; 45.8 min elapsed; max |x|,|y| in the map so far 0.084 mm
+  batch 10 / 10: read 18 s, total 296 s; 50.7 min elapsed; max |x|,|y| in the map so far 0.084 mm
+  done in 50.7 min
+
+=== <repo>\matlab\radiation_multi_electron\und15p_N2000_spread_emittance\results\sd0_en0p3.mat (5.6 h elapsed)
+  free disk 37.9 GB
+  GPT 0.6 min
+  batch  1 / 10: read 18 s, total 294 s; 4.9 min elapsed; max |x|,|y| in the map so far 0.070 mm
+  batch  2 / 10: read 18 s, total 296 s; 9.8 min elapsed; max |x|,|y| in the map so far 0.089 mm
+  batch  3 / 10: read 18 s, total 294 s; 14.7 min elapsed; max |x|,|y| in the map so far 0.089 mm
+  batch  4 / 10: read 18 s, total 297 s; 19.7 min elapsed; max |x|,|y| in the map so far 0.089 mm
+  batch  5 / 10: read 18 s, total 298 s; 24.7 min elapsed; max |x|,|y| in the map so far 0.090 mm
+  batch  6 / 10: read 18 s, total 297 s; 29.6 min elapsed; max |x|,|y| in the map so far 0.090 mm
+  batch  7 / 10: read 17 s, total 293 s; 34.5 min elapsed; max |x|,|y| in the map so far 0.090 mm
+  batch  8 / 10: read 18 s, total 303 s; 39.6 min elapsed; max |x|,|y| in the map so far 0.095 mm
+  batch  9 / 10: read 18 s, total 300 s; 44.6 min elapsed; max |x|,|y| in the map so far 0.095 mm
+  batch 10 / 10: read 18 s, total 301 s; 49.6 min elapsed; max |x|,|y| in the map so far 0.095 mm
+  done in 49.6 min
+
+=== <repo>\matlab\radiation_multi_electron\und15p_N2000_spread_emittance\results\sd0_en1.mat (6.4 h elapsed)
+  free disk 34.2 GB
+  GPT 0.8 min
+  batch  1 / 10: read 17 s, total 290 s; 4.8 min elapsed; max |x|,|y| in the map so far 0.125 mm
+  batch  2 / 10: read 18 s, total 299 s; 9.8 min elapsed; max |x|,|y| in the map so far 0.135 mm
+  batch  3 / 10: read 18 s, total 293 s; 14.7 min elapsed; max |x|,|y| in the map so far 0.135 mm
+  batch  4 / 10: read 17 s, total 298 s; 19.7 min elapsed; max |x|,|y| in the map so far 0.135 mm
+  batch  5 / 10: read 18 s, total 299 s; 24.6 min elapsed; max |x|,|y| in the map so far 0.135 mm
+  batch  6 / 10: read 18 s, total 296 s; 29.6 min elapsed; max |x|,|y| in the map so far 0.135 mm
+  batch  7 / 10: read 18 s, total 304 s; 34.6 min elapsed; max |x|,|y| in the map so far 0.135 mm
+  batch  8 / 10: read 18 s, total 299 s; 39.6 min elapsed; max |x|,|y| in the map so far 0.144 mm
+  batch  9 / 10: read 18 s, total 299 s; 44.6 min elapsed; max |x|,|y| in the map so far 0.144 mm
+  batch 10 / 10: read 16 s, total 292 s; 49.5 min elapsed; max |x|,|y| in the map so far 0.144 mm
+  done in 49.5 min
+
+=== <repo>\matlab\radiation_multi_electron\und15p_N2000_spread_emittance\results\sd0_en3.mat (7.3 h elapsed)
+  free disk 30.6 GB
+  GPT 0.8 min
+  batch  1 / 10: read 17 s, total 305 s; 5.1 min elapsed; max |x|,|y| in the map so far 0.339 mm
+  batch  2 / 10: read 18 s, total 301 s; 10.1 min elapsed; max |x|,|y| in the map so far 0.339 mm
+  batch  3 / 10: read 19 s, total 291 s; 14.9 min elapsed; max |x|,|y| in the map so far 0.349 mm
+  batch  4 / 10: read 18 s, total 298 s; 19.9 min elapsed; max |x|,|y| in the map so far 0.349 mm
+  batch  5 / 10: read 20 s, total 293 s; 24.8 min elapsed; max |x|,|y| in the map so far 0.349 mm
+  batch  6 / 10: read 17 s, total 295 s; 29.7 min elapsed; max |x|,|y| in the map so far 0.358 mm
+  batch  7 / 10: read 17 s, total 297 s; 34.7 min elapsed; max |x|,|y| in the map so far 0.358 mm
+  batch  8 / 10: read 17 s, total 310 s; 39.8 min elapsed; max |x|,|y| in the map so far 0.358 mm
+  batch  9 / 10: read 18 s, total 309 s; 45.0 min elapsed; max |x|,|y| in the map so far 0.358 mm
+  batch 10 / 10: read 18 s, total 298 s; 49.9 min elapsed; max |x|,|y| in the map so far 0.358 mm
+  done in 49.9 min
+
+=== <repo>\matlab\radiation_multi_electron\und15p_N2000_spread_emittance\results\sd0_en10.mat (8.1 h elapsed)
+  free disk 26.9 GB
+  GPT 0.8 min
+  batch  1 / 10: read 18 s, total 309 s; 5.2 min elapsed; max |x|,|y| in the map so far 1.100 mm
+  batch  2 / 10: read 18 s, total 289 s; 10.0 min elapsed; max |x|,|y| in the map so far 1.100 mm
+  batch  3 / 10: read 18 s, total 285 s; 14.7 min elapsed; max |x|,|y| in the map so far 1.133 mm
+  batch  4 / 10: read 18 s, total 293 s; 19.6 min elapsed; max |x|,|y| in the map so far 1.133 mm
+  batch  5 / 10: read 17 s, total 286 s; 24.4 min elapsed; max |x|,|y| in the map so far 1.133 mm
+  batch  6 / 10: read 17 s, total 293 s; 29.3 min elapsed; max |x|,|y| in the map so far 1.193 mm
+  batch  7 / 10: read 18 s, total 298 s; 34.2 min elapsed; max |x|,|y| in the map so far 1.193 mm
+  batch  8 / 10: read 18 s, total 297 s; 39.2 min elapsed; max |x|,|y| in the map so far 1.193 mm
+  batch  9 / 10: read 18 s, total 294 s; 44.1 min elapsed; max |x|,|y| in the map so far 1.193 mm
+  batch 10 / 10: read 17 s, total 297 s; 49.0 min elapsed; max |x|,|y| in the map so far 1.193 mm
+  done in 49.0 min
+
+=== <repo>\matlab\radiation_multi_electron\und15p_N2000_spread_emittance\results\sd0_en12.mat (8.9 h elapsed)
+  batch  1 / 10: read 18 s, total 304 s; 5.1 min elapsed; max |x|,|y| in the map so far 1.317 mm
+  batch  2 / 10: read 17 s, total 300 s; 10.1 min elapsed; max |x|,|y| in the map so far 1.317 mm
+  batch  3 / 10: read 18 s, total 303 s; 15.1 min elapsed; max |x|,|y| in the map so far 1.357 mm
+  batch  4 / 10: read 18 s, total 296 s; 20.1 min elapsed; max |x|,|y| in the map so far 1.357 mm
+  batch  5 / 10: read 18 s, total 294 s; 25.0 min elapsed; max |x|,|y| in the map so far 1.357 mm
+  batch  6 / 10: read 18 s, total 289 s; 29.8 min elapsed; max |x|,|y| in the map so far 1.431 mm
+  batch  7 / 10: read 18 s, total 296 s; 34.7 min elapsed; max |x|,|y| in the map so far 1.431 mm
+  batch  8 / 10: read 18 s, total 293 s; 39.6 min elapsed; max |x|,|y| in the map so far 1.431 mm
+  batch  9 / 10: read 18 s, total 292 s; 44.5 min elapsed; max |x|,|y| in the map so far 1.431 mm
+  batch 10 / 10: read 18 s, total 286 s; 49.2 min elapsed; max |x|,|y| in the map so far 1.431 mm
+  done in 49.2 min
+
+=== <repo>\matlab\radiation_multi_electron\und15p_N2000_spread_emittance\results\sd1_en3.mat (9.8 h elapsed)
+  free disk 23.2 GB
+  GPT 0.7 min
+  batch  1 / 10: read 18 s, total 297 s; 4.9 min elapsed; max |x|,|y| in the map so far 0.339 mm
+  batch  2 / 10: read 18 s, total 297 s; 9.9 min elapsed; max |x|,|y| in the map so far 0.339 mm
+  batch  3 / 10: read 18 s, total 313 s; 15.1 min elapsed; max |x|,|y| in the map so far 0.349 mm
+  batch  4 / 10: read 17 s, total 300 s; 20.1 min elapsed; max |x|,|y| in the map so far 0.349 mm
+  batch  5 / 10: read 17 s, total 305 s; 25.2 min elapsed; max |x|,|y| in the map so far 0.349 mm
+  batch  6 / 10: read 18 s, total 294 s; 30.1 min elapsed; max |x|,|y| in the map so far 0.358 mm
+  batch  7 / 10: read 17 s, total 290 s; 34.9 min elapsed; max |x|,|y| in the map so far 0.358 mm
+  batch  8 / 10: read 18 s, total 294 s; 39.8 min elapsed; max |x|,|y| in the map so far 0.358 mm
+  batch  9 / 10: read 18 s, total 300 s; 44.8 min elapsed; max |x|,|y| in the map so far 0.358 mm
+  batch 10 / 10: read 17 s, total 293 s; 49.7 min elapsed; max |x|,|y| in the map so far 0.358 mm
+  done in 49.7 min
+
+=== <repo>\matlab\radiation_multi_electron\und15p_N2000_spread_emittance\results\sd0_en12_dz30um.mat (10.6 h elapsed)
+  free disk 19.6 GB
+  GPT 1.4 min
+  batch  1 / 10: read 36 s, total 572 s; 9.5 min elapsed; max |x|,|y| in the map so far 1.317 mm
+  batch  2 / 10: read 34 s, total 568 s; 19.0 min elapsed; max |x|,|y| in the map so far 1.317 mm
+  batch  3 / 10: read 35 s, total 608 s; 29.1 min elapsed; max |x|,|y| in the map so far 1.357 mm
+  batch  4 / 10: read 35 s, total 572 s; 38.7 min elapsed; max |x|,|y| in the map so far 1.357 mm
+  batch  5 / 10: read 33 s, total 583 s; 48.4 min elapsed; max |x|,|y| in the map so far 1.357 mm
+  batch  6 / 10: read 34 s, total 594 s; 58.3 min elapsed; max |x|,|y| in the map so far 1.431 mm
+  batch  7 / 10: read 34 s, total 588 s; 68.1 min elapsed; max |x|,|y| in the map so far 1.431 mm
+  batch  8 / 10: read 34 s, total 576 s; 77.7 min elapsed; max |x|,|y| in the map so far 1.431 mm
+  batch  9 / 10: read 34 s, total 635 s; 88.3 min elapsed; max |x|,|y| in the map so far 1.431 mm
+  batch 10 / 10: read 34 s, total 584 s; 98.0 min elapsed; max |x|,|y| in the map so far 1.431 mm
+  done in 98.0 min
+
+All done in 12.3 h

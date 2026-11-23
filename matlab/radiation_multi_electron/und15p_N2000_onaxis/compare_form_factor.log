@@ -1,0 +1,10 @@
+﻿pointwise multi/disc - 1 at the S1 nulls reaches 3.1e+01; below: differences relative to the local envelope (+-1% in lambda)
+incoherent check |sum_j|E_j|^2 - N S1| / envelope: max 1.252e-02
+   15- 25 nm: |multi - disc|/env max 1.04e-01 (median 3.4e-03); |multi - analytic|/env max 3.84e-01; incoherent check 1.3e-02; N|F|^2 4.80e-05 .. 3.61e+00
+   25- 40 nm: |multi - disc|/env max 2.47e-02 (median 8.2e-04); |multi - analytic|/env max 2.32e-01; incoherent check 8.0e-03; N|F|^2 3.63e+00 .. 1.69e+02
+   40- 70 nm: |multi - disc|/env max 1.66e-03 (median 5.3e-04); |multi - analytic|/env max 9.47e-02; incoherent check 4.1e-03; N|F|^2 1.70e+02 .. 8.93e+02
+   70-150 nm: |multi - disc|/env max 5.67e-04 (median 3.4e-04); |multi - analytic|/env max 2.38e-02; incoherent check 8.8e-04; N|F|^2 8.94e+02 .. 1.68e+03
+harmonics (beta method) n = 1, 3, 5: [101.83 33.943 20.366] nm; N|F|^2 there: [1.37e+03 65 0.147]
+  n = 1 peak (102.01 nm): S_multi / (N S1) = 1383.1, S_multi / (N^2 S1) = 0.692, |F|^2 = 6.843e-01
+  n = 3 peak (33.99 nm): S_multi / (N S1) = 76.9, S_multi / (N^2 S1) = 0.038, |F|^2 = 3.281e-02
+  n = 5 peak (20.39 nm): S_multi / (N S1) = 0.8, S_multi / (N^2 S1) = 0.000, |F|^2 = 7.485e-05

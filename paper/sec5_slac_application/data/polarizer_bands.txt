@@ -1,0 +1,35 @@
+% sigma_z = 10 nm, (0, -2 mm, 5.9 m), 100 pC, 5e4 macro-particles (large_sigz.mat). Energies in J/sr, +- jackknife sd (25 chunks).
+% dipole share in x = (W_x(und+dip) - W_x(und)) / W_x(und+dip)
+% ---- EV (expected value, real incoherent level)
+D1 50-280 nm
+  no polarizer: und 2172 +- 9.2, dip 431.8 +- 2.7, und+dip 1526 +- 7.7
+  x polarizer : und 80.64 +- 1.2, dip -2.993e-05 +- 0.0091, und+dip 81.01 +- 0.99
+  x(und+dip)/und(no pol) = 0.0373, x(und+dip)/(und+dip)(no pol) = 0.0531, x(und)/und(no pol) = 0.0371
+  dipole share in x = +0.0046 +- 0.0058
+D2 300-1000 nm
+  no polarizer: und 59.91 +- 0.15, dip 399.8 +- 1.6, und+dip 251.7 +- 1.3
+  x polarizer : und 0.109 +- 0.0016, dip 0.003036 +- 0.0058, und+dip 0.143 +- 0.023
+  x(und+dip)/und(no pol) = 0.0024, x(und+dip)/(und+dip)(no pol) = 0.0006, x(und)/und(no pol) = 0.0018
+  dipole share in x = +0.2376 +- 0.1149
+50-1000 nm
+  no polarizer: und 2247 +- 9.3, dip 863.9 +- 4.3, und+dip 1785 +- 7.8
+  x polarizer : und 80.8 +- 1.2, dip 0.003182 +- 0.014, und+dip 81.21 +- 1
+  x(und+dip)/und(no pol) = 0.0361, x(und+dip)/(und+dip)(no pol) = 0.0455, x(und)/und(no pol) = 0.0360
+  dipole share in x = +0.0051 +- 0.0056
+% ---- DS (direct sum at the actual positions, with macro-particle self term)
+D1 50-280 nm
+  no polarizer: und 2184 +- 15, dip 432.3 +- 3.7, und+dip 1542 +- 15
+  x polarizer : und 82.32 +- 1.9, dip 0.01017 +- 0.013, und+dip 82.07 +- 1.7
+  x(und+dip)/und(no pol) = 0.0376, x(und+dip)/(und+dip)(no pol) = 0.0532, x(und)/und(no pol) = 0.0377
+  dipole share in x = -0.0030 +- 0.0104
+D2 300-1000 nm
+  no polarizer: und 59.92 +- 0.15, dip 399.9 +- 1.6, und+dip 251.7 +- 1.3
+  x polarizer : und 0.1094 +- 0.002, dip 0.005528 +- 0.006, und+dip 0.1457 +- 0.024
+  x(und+dip)/und(no pol) = 0.0024, x(und+dip)/(und+dip)(no pol) = 0.0006, x(und)/und(no pol) = 0.0018
+  dipole share in x = +0.2491 +- 0.1175
+50-1000 nm
+  no polarizer: und 2259 +- 15, dip 864.5 +- 5.2, und+dip 1802 +- 15
+  x polarizer : und 82.48 +- 1.9, dip 0.01615 +- 0.019, und+dip 82.28 +- 1.7
+  x(und+dip)/und(no pol) = 0.0364, x(und+dip)/(und+dip)(no pol) = 0.0457, x(und)/und(no pol) = 0.0365
+  dipole share in x = -0.0024 +- 0.0102
+% macro-particle self term, x component (DS only): D1 50-280 nm total 0.0252, dipole 0.0132; D2 300-1000 nm total 0.002, dipole 0.00245; 50-1000 nm total 0.0273, dipole 0.0159; 

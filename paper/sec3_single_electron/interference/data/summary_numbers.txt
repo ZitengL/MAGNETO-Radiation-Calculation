@@ -1,0 +1,6 @@
+onaxis: slope measured 2.2570921e-06, predicted 2.2570945e-06 (rel. -1.1e-06); max |meas - pred| over 213 D = 2.41e-06 um
+   D = 0.5 m: median S_dip/S_und = 1.27e-02; max |I_int|/S0 = 7.29e-04 (median 7.07e-05); median sqrt(S2^2+S3^2)/S0 = 0.22
+   delay-spectrum box centre c*t at D = 0.1, 0.5, 1, 1.5 m: 1.1992, 2.1015, 3.2303, 4.3590 um
+th0p5: slope measured 2.4492744e-06, predicted 2.4493971e-06 (rel. -5.0e-05); max |meas - pred| over 213 D = 1.77e-04 um
+   D = 0.5 m: median S_dip/S_und = 8.42e-03; max |I_int|/S0 = 3.90e-01 (median 2.09e-02); median sqrt(S2^2+S3^2)/S0 = 0.18
+   delay-spectrum box centre c*t at D = 0.1, 0.5, 1, 1.5 m: 1.2741, 2.2439, 3.4671, 4.7022 um

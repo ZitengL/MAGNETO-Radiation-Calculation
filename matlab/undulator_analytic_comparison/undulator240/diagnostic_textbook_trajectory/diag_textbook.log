@@ -1,0 +1,16 @@
+﻿
+sample step 7.50 um (60947 samples); max |dbx/dt (Lorentz) - dbx/dt (numerical)| / max = 6.0e-07
+  11m_theta0    |textbook-trajectory MAGNETO - (26.46)| / envelope: max 2.76e-02, median 9.4e-04; where S > 1% of max: ratio - 1 in [-6.71e-04, +5.79e-03]
+  11m_theta0p5  |textbook-trajectory MAGNETO - (26.46)| / envelope: max 1.97e+00, median 7.9e-02; where S > 1% of max: ratio - 1 in [-3.59e-01, +6.18e-01]
+  1km_theta0    |textbook-trajectory MAGNETO - (26.46)| / envelope: max 6.10e-04, median 1.1e-04; where S > 1% of max: ratio - 1 in [-1.34e-03, +1.25e-03]
+  1km_theta0p5  |textbook-trajectory MAGNETO - (26.46)| / envelope: max 1.40e+00, median 7.5e-02; where S > 1% of max: ratio - 1 in [-2.27e-01, +3.20e-01]
+
+sample step 3.75 um (121893 samples); max |dbx/dt (Lorentz) - dbx/dt (numerical)| / max = 1.1e-07
+  11m_theta0    |textbook-trajectory MAGNETO - (26.46)| / envelope: max 2.76e-02, median 9.4e-04; where S > 1% of max: ratio - 1 in [-6.70e-04, +5.79e-03]
+      peak value textbook-trajectory MAGNETO / (26.46), k = [1 3 5]: [1 1 1]
+  11m_theta0p5  |textbook-trajectory MAGNETO - (26.46)| / envelope: max 1.97e+00, median 7.9e-02; where S > 1% of max: ratio - 1 in [-3.59e-01, +6.18e-01]
+      peak value textbook-trajectory MAGNETO / (26.46), k = [1 2 3 4 5]: [1 1.002 0.9761 0.9904 0.9921]
+  1km_theta0    |textbook-trajectory MAGNETO - (26.46)| / envelope: max 6.02e-04, median 1.1e-04; where S > 1% of max: ratio - 1 in [-1.34e-03, +1.25e-03]
+      peak value textbook-trajectory MAGNETO / (26.46), k = [1 3 5]: [1 1 1]
+  1km_theta0p5  |textbook-trajectory MAGNETO - (26.46)| / envelope: max 1.40e+00, median 7.5e-02; where S > 1% of max: ratio - 1 in [-2.27e-01, +3.20e-01]
+      peak value textbook-trajectory MAGNETO / (26.46), k = [1 2 3 4 5]: [1 0.9985 1.018 0.9982 0.987]

@@ -1,0 +1,4 @@
+﻿onaxis  coherent   overall 9.96e-05   n=1: 8.31e-06   n=3: 5.24e-05   n=5: 6.09e-05
+onaxis  incoherent overall 1.62e-06   n=1: 6.59e-07   n=3: 1.07e-06   n=5: 1.13e-06
+th0p5   coherent   overall 6.98e-05   n=1: 1.38e-05   n=2: 3.24e-05   n=4: 4.80e-05   n=5: 6.62e-05
+th0p5   incoherent overall 2.28e-06   n=1: 3.85e-07   n=2: 3.24e-07   n=4: 1.04e-06   n=5: 2.28e-06

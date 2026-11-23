@@ -1,0 +1,25 @@
+﻿Bu = 0.344535 T; field nonzero for z = 0.75624 .. 1.24374 m (expected 0.75622 .. 1.24378)
+max |fBx| 0.00e+00 T, max |fBy| 0.344535 T, max |fBz| 0.00e+00 T (on axis: Bz = sinh(ku y) part, y = 0)
+half-period peaks / Bu: first 3 [0.25 0.75 1], last 3 [1 0.75 0.25], middle min/max 0.999981 / 1.000000
+max |fBy - Bu Fs sin(ku (z - zund))| = 5.55e-17 T (sign of the sine: +1)
+gamma 470.66442480 .. 470.66442480; exit beta_x 9.633e-10, exit x 3.791e-10 m, mean x over the field 1.520e-10 m, max |x| 11.968 um, K/gamma 2.0828e-03
+
+<beta_z> method:  ideal K 0.980317, lambda_u 30.472767 mm | real map K 0.980309, lambda_u 30.472767 mm
+lambda_n [nm]    n=1        n=3        n=5
+formula (K in)  101.8283    33.9428    20.3657
+ideal  <beta_z>  101.8288    33.9429    20.3658
+real   <beta_z>  101.8283    33.9428    20.3657
+
+theta_x = 0.0 mrad (theta_u = 0.0000 mrad): tout 60 vs 15 um max |diff|/env = 1.40e-04
+  n   formula [nm]   ideal peak [nm]   real-map peak [nm]   ideal/real - 1   peak S ideal/real   ideal peak / max S at this angle
+  1    101.8283       101.8495         102.0008      -1.48e-03       0.9537       1.00e+00
+  3     33.9428        33.9652          33.9922      -7.94e-04       1.0022       4.27e-01
+  5     20.3657        20.3770          20.3821      -2.47e-04       1.0242       1.18e-01
+
+theta_x = 0.5 mrad (theta_u = 0.5500 mrad): tout 60 vs 15 um max |diff|/env = 6.28e-05
+  n   formula [nm]   ideal peak [nm]   real-map peak [nm]   ideal/real - 1   peak S ideal/real   ideal peak / max S at this angle
+  1    106.4373       106.5135         106.5952      -7.67e-04       0.9347       1.00e+00
+  2     53.2186        53.2719          53.3197      -8.96e-04       1.0186       7.73e-01
+  3     35.4791        35.0089          35.2842      -7.80e-03       0.3804       3.22e-03
+  4     26.6093        26.6284          26.6286      -8.72e-06       0.9172       2.74e-01
+  5     21.2875        21.3097          21.3039      +2.72e-04       1.0661       1.04e-01

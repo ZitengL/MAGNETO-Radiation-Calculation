@@ -1,0 +1,34 @@
+% y = -2.0 mm, x pol., model N S1 + N(N-1) S1 |F|^2 (positions only), W [J/sr]; sens = -dlnW/dsigma_z [1/nm]
+% incoherent level per band: 50-300 nm 7.38e-07, 50-280 nm 7.38e-07, 300-1000 nm 2.14e-10, 1-3 um 4.93e-13, 3-10 um 2.80e-15
+% sigma_z_nm | W(50-300 nm) coh/incoh sens | W(50-280 nm) coh/incoh sens | W(300-1000 nm) coh/incoh sens | W(1-3 um) coh/incoh sens | W(3-10 um) coh/incoh sens
+    10 | 1.146e+02 1.55e+08 0.162 | 1.145e+02 1.55e+08 0.162 | 1.271e-01 5.95e+08 0.006 | 3.064e-04 6.21e+08 0.001 | 1.750e-06 6.24e+08 0.000
+    20 | 1.813e+01 2.46e+07 0.187 | 1.809e+01 2.45e+07 0.187 | 1.159e-01 5.42e+08 0.012 | 3.038e-04 6.16e+08 0.001 | 1.748e-06 6.23e+08 0.000
+    30 | 3.242e+00 4.40e+06 0.150 | 3.208e+00 4.35e+06 0.151 | 9.892e-02 4.63e+08 0.018 | 2.994e-04 6.07e+08 0.002 | 1.746e-06 6.22e+08 0.000
+    50 | 2.589e-01 3.51e+05 0.112 | 2.428e-01 3.29e+05 0.116 | 6.140e-02 2.87e+08 0.029 | 2.863e-04 5.81e+08 0.003 | 1.738e-06 6.20e+08 0.000
+    71 | 2.881e-02 3.91e+04 0.104 | 2.389e-02 3.24e+04 0.112 | 3.065e-02 1.43e+08 0.038 | 2.669e-04 5.41e+08 0.004 | 1.725e-06 6.15e+08 0.000
+   100 | 1.236e-03 1.67e+03 0.114 | 7.676e-04 1.04e+03 0.126 | 9.343e-03 4.37e+07 0.042 | 2.325e-04 4.72e+08 0.006 | 1.701e-06 6.06e+08 0.001
+   151 | 2.267e-06 2.07e+00 0.099 | 1.164e-06 5.79e-01 0.062 | 1.192e-03 5.58e+06 0.037 | 1.639e-04 3.32e+08 0.008 | 1.639e-06 5.84e+08 0.001
+   200 | 7.382e-07 6.46e-04 0.000 | 7.376e-07 6.22e-05 0.000 | 2.307e-04 1.08e+06 0.032 | 1.058e-04 2.15e+08 0.010 | 1.562e-06 5.57e+08 0.001
+   302 | 7.377e-07 3.79e-14 0.000 | 7.376e-07 1.41e-16 0.000 | 8.708e-06 4.07e+04 0.033 | 3.231e-05 6.55e+07 0.013 | 1.353e-06 4.82e+08 0.002
+   398 | 7.377e-07 2.72e-27 -0.000 | 7.376e-07 1.42e-31 -0.000 | 2.976e-07 1.39e+03 0.038 | 9.492e-06 1.93e+07 0.013 | 1.126e-06 4.02e+08 0.002
+   501 | 7.377e-07 2.95e-45 -0.000 | 7.376e-07 4.32e-52 -0.000 | 4.595e-09 2.05e+01 0.042 | 2.767e-06 5.61e+06 0.011 | 8.824e-07 3.15e+08 0.003
+   708 | 7.377e-07 1.93e-93 -0.000 | 7.376e-07 3.76e-107 -0.000 | 2.138e-10 4.76e-04 0.000 | 3.035e-07 6.16e+05 0.010 | 4.821e-07 1.72e+08 0.003
+  1000 | 7.377e-07 3.08e-189 -0.000 | 7.376e-07 1.13e-216 -0.000 | 2.137e-10 5.99e-13 0.000 | 1.323e-08 2.68e+04 0.011 | 1.810e-07 6.45e+07 0.003
+% 50-300 nm: coherent = 10 x incoherent at sigma_z = 141 nm
+% 50-300 nm: coherent = 1 x incoherent at sigma_z = 158 nm
+% 50-300 nm: coherent = 0.1 x incoherent at sigma_z = 174 nm
+% 50-280 nm: coherent = 10 x incoherent at sigma_z = 135 nm
+% 50-280 nm: coherent = 1 x incoherent at sigma_z = 151 nm
+% 50-280 nm: coherent = 0.1 x incoherent at sigma_z = 162 nm
+% 300-1000 nm: coherent = 10 x incoherent at sigma_z = 525 nm
+% 300-1000 nm: coherent = 1 x incoherent at sigma_z = 575 nm
+% 300-1000 nm: coherent = 0.1 x incoherent at sigma_z = 617 nm
+% 1-3 um: coherent > 10 x incoherent up to 1000 nm
+% 1-3 um: coherent > 1 x incoherent up to 1000 nm
+% 1-3 um: coherent > 0.1 x incoherent up to 1000 nm
+% 3-10 um: coherent > 10 x incoherent up to 1000 nm
+% 3-10 um: coherent > 1 x incoherent up to 1000 nm
+% 3-10 um: coherent > 0.1 x incoherent up to 1000 nm
+% single lambda 280 nm: coherent = incoherent at sigma_z = 200 nm
+% single lambda 300 nm: coherent = incoherent at sigma_z = 215 nm
+% single lambda 1000 nm: coherent = incoherent at sigma_z = 716 nm

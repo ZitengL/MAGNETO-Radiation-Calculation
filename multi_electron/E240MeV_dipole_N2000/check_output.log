@@ -1,5 +1,0 @@
-﻿stats: 74668 output times, avgz 0.86999 .. 1.14956 m, numpar 2000 .. 2000
-stdx 19.5442 .. 19.6588 um, stdy 20.2338 .. 20.2338 um, stdz 9.83922 .. 9.87183 nm; avgG 470.66442480, max stdG 1.8e-11
-bunch centre at the end: avgy 12.1506 mm, avgBy 8.10213e-02
-departure from a pure translation: max |x| 2.71e-07 m, max |y| 1.91e-09 m, max |z| 8.91e-11 m (rms at exit 3.51e-11 m)
-G range 470.6644248004 .. 470.6644248005; max |x| 48.8 um, y range -0.044 .. 12.189 mm

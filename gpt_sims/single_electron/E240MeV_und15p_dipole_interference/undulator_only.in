@@ -1,0 +1,33 @@
+# Same as combined.in but WITHOUT the dipole: undulator radiation alone (independent of D;
+# D only sets the output window). Run with D on the command line.
+
+# ---------------- Beam ----------------
+E0   = 240e6 ;                        # kinetic energy [eV]
+G    = 1 + E0*abs(qe)/(me*c*c) ;      # Lorentz factor (kinetic energy -> gamma)
+GB   = sqrt(G*G - 1) ;                # gamma*beta
+
+# One electron at the origin, moving along +z with no transverse momentum
+setstartpar("beam", 0,0,0, 0,0,GB, me,qe,1) ;
+
+# ---------------- Geometry ----------------
+# D (command line, [m]) = distance from the end of the undulator field map (z = 1.32004 m)
+# to the effective entrance of the dipole (dipole centre - Ldip/2).
+zund = 1.0 ;                          # undulator centre [m]
+zmap = 0.32004 ;                      # half length of the field map [m]
+Ldip = 0.1 ;                          # dipole effective length [m]
+zcen = zund + zmap + D + Ldip/2 ;     # dipole centre [m]
+# ---------------- Undulator (real Radia map, paraxial version) ----------------
+# ECS: origin (0,0,zund); new x-axis = WCS +y, new y-axis = WCS -x => map Bx (main) becomes WCS By
+map3D_B("wcs", 0,0,zund, 0,1,0, -1,0,0, "../../../field_map/und15p_K1_paraxial.gdf", "x","y","z","Bx","By","Bz", 1) ;
+# ---------------- Accuracy ----------------
+accuracy(6) ;
+
+# ---------------- Output ----------------
+# Two output grids: every 60 um/c through the undulator (converged there) up to 12 cm before the
+# dipole centre (in the field-free drift), then every 3.75 um/c through the dipole (needed there)
+# until 5 cm after its field ends (zcen + 0.15 m).
+dz1 = 60e-6 ;  dz2 = 3.75e-6 ;
+t1a = floor(0.65/dz1)*dz1/c ;          t1b = (zcen - 0.12)/c ;
+t2a = floor((zcen - 0.115)/dz2)*dz2/c ; t2b = (zcen + 0.15)/c ;
+tout(t1a, t1b, dz1/c) ;
+tout(t2a, t2b, dz2/c) ;

@@ -1,0 +1,40 @@
+﻿
+=== 11m_theta0: R_src = 10.0000 m, theta_u = 0.0000 mrad; analytic lambda_1 = 101.8286 nm; Bessel |n| <= 27
+MAGNETO polarisation: ideal max y/total 0.0e+00, z/total 3.7e-07; real max y/total 0.0e+00
+|diff|/envelope of the analytic (max / median): ideal 2.56e+03 / 3.5e-01, real 2.61e+03 / 4.8e-01, (26.51) vs (26.46) 8.06e+02 / 1.9e-01
+  k  lambda_k [nm] | peak position [nm]: (26.46)  ideal  real | peak value / (26.46) peak: ideal  real  (26.51)  (26.61) | ideal peak/max
+  1   101.8286   |  101.7891  101.8495  102.0008 |  1.0222  1.0718  1.0010  0.9999 | 1.0e+00
+  3    33.9429   |   33.9275   33.9652   33.9922 |  0.9393  0.9373  0.9991  0.9986 | 4.3e-01
+  5    20.3657   |   20.3542   20.3770   20.3821 |  0.8856  0.8647  0.9944  0.9940 | 1.2e-01
+  where S_analytic > 1% of its max: ideal/analytic - 1 in [-0.639, +0.937], real/analytic - 1 in [-0.743, +1.336]
+
+=== 11m_theta0p5: R_src = 10.0000 m, theta_u = 0.5500 mrad; analytic lambda_1 = 106.4376 nm; Bessel |n| <= 28
+MAGNETO polarisation: ideal max y/total 0.0e+00, z/total 9.9e-06; real max y/total 0.0e+00
+|diff|/envelope of the analytic (max / median): ideal 3.08e+01 / 2.3e-01, real 3.97e+01 / 2.8e-01, (26.51) vs (26.46) 1.87e+01 / 1.0e-01
+  k  lambda_k [nm] | peak position [nm]: (26.46)  ideal  real | peak value / (26.46) peak: ideal  real  (26.51)  (26.61) | ideal peak/max
+  1   106.4376   |  106.4306  106.5135  106.5952 |  1.0014  1.0713  1.0008     NaN | 1.0e+00
+  2    53.2188   |   53.1804   53.2719   53.3197 |  1.0364  1.0175  0.9995     NaN | 7.7e-01
+  3    35.4792   |   35.5796   35.0089   35.2842 |  0.5759  1.5141  0.9981     NaN | 3.2e-03
+  4    26.6094   |   26.5935   26.6284   26.6286 |  0.8625  0.9403  0.9960     NaN | 2.7e-01
+  5    21.2875   |   21.2695   21.3097   21.3039 |  0.9103  0.8539  0.9876     NaN | 1.0e-01
+  where S_analytic > 1% of its max: ideal/analytic - 1 in [-0.802, +1.260], real/analytic - 1 in [-0.777, +1.274]
+
+=== 1km_theta0: R_src = 1000.0000 m, theta_u = 0.0000 mrad; analytic lambda_1 = 101.8286 nm; Bessel |n| <= 27
+MAGNETO polarisation: ideal max y/total 0.0e+00, z/total 2.6e-09; real max y/total 0.0e+00
+|diff|/envelope of the analytic (max / median): ideal 2.55e+03 / 3.5e-01, real 2.61e+03 / 4.8e-01, (26.51) vs (26.46) 8.06e+02 / 1.9e-01
+  k  lambda_k [nm] | peak position [nm]: (26.46)  ideal  real | peak value / (26.46) peak: ideal  real  (26.51)  (26.61) | ideal peak/max
+  1   101.8286   |  101.7891  101.8495  102.0007 |  1.0218  1.0722  1.0010  0.9999 | 1.0e+00
+  3    33.9429   |   33.9275   33.9652   33.9922 |  0.9390  0.9377  0.9991  0.9986 | 4.3e-01
+  5    20.3657   |   20.3542   20.3770   20.3820 |  0.8853  0.8651  0.9944  0.9940 | 1.2e-01
+  where S_analytic > 1% of its max: ideal/analytic - 1 in [-0.639, +0.935], real/analytic - 1 in [-0.744, +1.335]
+
+=== 1km_theta0p5: R_src = 1000.0000 m, theta_u = 0.5500 mrad; analytic lambda_1 = 106.4376 nm; Bessel |n| <= 28
+MAGNETO polarisation: ideal max y/total 0.0e+00, z/total 1.1e-06; real max y/total 0.0e+00
+|diff|/envelope of the analytic (max / median): ideal 3.08e+01 / 2.3e-01, real 3.81e+01 / 2.9e-01, (26.51) vs (26.46) 1.87e+01 / 1.0e-01
+  k  lambda_k [nm] | peak position [nm]: (26.46)  ideal  real | peak value / (26.46) peak: ideal  real  (26.51)  (26.61) | ideal peak/max
+  1   106.4376   |  106.4306  106.5116  106.5944 |  1.0015  1.0692  1.0008     NaN | 1.0e+00
+  2    53.2188   |   53.1804   53.2707   53.3238 |  1.0369  1.0139  0.9995     NaN | 7.7e-01
+  3    35.4792   |   35.5796   35.0034   35.2657 |  0.5556  1.7763  0.9981     NaN | 3.1e-03
+  4    26.6094   |   26.5935   26.6283   26.6247 |  0.8652  0.9419  0.9960     NaN | 2.8e-01
+  5    21.2875   |   21.2695   21.3094   21.3039 |  0.9143  0.8443  0.9876     NaN | 1.0e-01
+  where S_analytic > 1% of its max: ideal/analytic - 1 in [-0.803, +1.240], real/analytic - 1 in [-0.774, +1.120]

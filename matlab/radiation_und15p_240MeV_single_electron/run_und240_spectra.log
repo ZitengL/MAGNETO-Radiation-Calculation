@@ -1,0 +1,7 @@
+﻿gamma 470.6644, lambda_u 30.4728 mm, K (<beta_z>) 0.9803, lambda_1(0) = 101.828 nm
+theta_x = 0.0 mrad (theta_u = 0.000 mrad): max |S60 - S15|/env = 2.07e-05, |S30 - S15|/env = 6.27e-06; peak 1.816e-29 J/(rad/s)/sr at 102.01 nm
+theta_x = 0.1 mrad (theta_u = 0.110 mrad): max |S60 - S15|/env = 8.45e-06, |S30 - S15|/env = 1.31e-05; peak 1.794e-29 J/(rad/s)/sr at 102.20 nm
+theta_x = 0.2 mrad (theta_u = 0.220 mrad): max |S60 - S15|/env = 1.05e-05, |S30 - S15|/env = 1.29e-05; peak 1.726e-29 J/(rad/s)/sr at 102.72 nm
+theta_x = 0.3 mrad (theta_u = 0.330 mrad): max |S60 - S15|/env = 1.06e-05, |S30 - S15|/env = 2.62e-05; peak 1.619e-29 J/(rad/s)/sr at 103.67 nm
+theta_x = 0.4 mrad (theta_u = 0.440 mrad): max |S60 - S15|/env = 1.42e-05, |S30 - S15|/env = 1.77e-05; peak 1.481e-29 J/(rad/s)/sr at 104.92 nm
+theta_x = 0.5 mrad (theta_u = 0.550 mrad): max |S60 - S15|/env = 1.73e-05, |S30 - S15|/env = 2.72e-05; peak 1.321e-29 J/(rad/s)/sr at 106.58 nm

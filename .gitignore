@@ -1,0 +1,17 @@
+# Large binary outputs: not tracked (see README, "What is not included")
+*.gdf
+!field_map/und15p_K1_paraxial.gdf
+*.mat
+!matlab/radiation_multi_electron/E7GeV_gap6und_sigz_sweep/results/standard_sample.mat
+*.fig
+*.asv
+
+# GPT / MATLAB working files
+gpt_sims/**/chunk_beam.txt
+
+# Python
+__pycache__/
+*.pyc
+*.npz
+*.npy
+.matplotlib/

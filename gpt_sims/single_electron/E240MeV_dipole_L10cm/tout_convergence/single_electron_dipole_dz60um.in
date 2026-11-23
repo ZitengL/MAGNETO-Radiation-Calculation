@@ -1,0 +1,36 @@
+# Single electron through a short ideal dipole (rectmagnet with Enge fringe fields), 240 MeV
+# Dipole centre z = 1.0 m, effective length 0.1 m, |B| = 0.65 T along WCS -x
+# => electron (q < 0) is bent upwards (+y), bend angle ~81 mrad, critical wavelength ~50 nm.
+# Reference for the 2000-electron run gpt_sims/multi_electron/E240MeV_dipole_N2000 (same output grid).
+
+# ---------------- Beam ----------------
+E0   = 240e6 ;                        # kinetic energy [eV]
+G    = 1 + E0*abs(qe)/(me*c*c) ;      # Lorentz factor (kinetic energy -> gamma)
+GB   = sqrt(G*G - 1) ;                # gamma*beta
+
+# One electron at the origin, moving along +z with no transverse momentum
+setstartpar("beam", 0,0,0, 0,0,GB, me,qe,1) ;
+
+# ---------------- Dipole ----------------
+zcen  = 1.0 ;                         # dipole centre [m]
+Ldip  = 0.1 ;                         # effective length along z [m]
+Bdip  = 0.65 ;                        # field [T]
+gap   = 0.01 ;                        # gap [m]
+b1    = 2/gap ;                       # Enge coefficient [1/m], manual estimate 2/gap
+adip  = 0.2 ;                         # width of the field region in WCS y [m]
+# ECS: origin (0,0,zcen); new x-axis = WCS +y, new y-axis = WCS -x
+# => rectmagnet field (along its own +y) points along WCS -x
+rectmagnet("wcs", 0,0,zcen, 0,1,0, -1,0,0, adip, Ldip, Bdip, 0, b1, 0) ;
+
+# ---------------- Accuracy ----------------
+accuracy(6) ;
+
+# ---------------- Output ----------------
+# GPT sets the rectmagnet fringe field to 0 beyond 10/b1 from each edge (field nonzero
+# z = 0.90 .. 1.10 m). Stop 5 cm after that; one output every c*dt = 60 um, from
+# z ~ 0.87 m (3 cm before the field), on the 60 um grid of a run that outputs from t = 0.
+s0     = 10/b1 ;
+zstop  = zcen + Ldip/2 + s0 + 0.05 ;
+dz     = 60e-6 ;   # former main run (tout 60 um), kept for the convergence study
+tstart = floor((zcen - Ldip/2 - s0 - 0.03)/dz)*dz/c ;
+tout(tstart, zstop/c, dz/c) ;

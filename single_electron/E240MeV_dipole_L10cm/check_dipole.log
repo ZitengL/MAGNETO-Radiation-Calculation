@@ -1,6 +1,0 @@
-﻿output: 4668 points, z = 0.86994 .. 1.14952 m; field nonzero z = 0.9001 .. 1.0999 m
-field at centre -0.649970 T; max |fBx - Enge| (field region) 2.95e-05 T; field integral -0.065000 T m (hard edge 0.065)
-gamma 470.664425 (const: 1); rho = 1.2342 m; exit angle 8.11104e-02 rad, asin(e*int(B)/p) = 8.11110e-02 rad
-lambda_c = 4 pi rho / (3 gamma^3) = 49.59 nm; y at exit (z = 1.150 m) 12.147 mm; max |x| 0.0e+00
-Lorentz-force integral check: max |by - by_int| / by_end = 8.20e-06
-t_obs monotonic for (0,0,11): 1

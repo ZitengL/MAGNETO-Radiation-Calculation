@@ -1,0 +1,17 @@
+﻿alignment of the dipole-only run: delay 1.7184e-15 s (c dt = 0.5152 um), x offset of the combined run at the dipole 9.32e-07 m
+
+=== on axis
+1. tout: |S(60/3.75) - S(30/1.875)|/env max 1.9e-05; S2: |diff|/env(S0) max 2.6e-04
+2. |E_comb - (E_und + E_dip)| / |E_comb| (per component, envelope): x 1.8e-07, y 4.0e-05
+3. undulator: x/total 1.0000..1.0000 (y/total max 0.0e+00); dipole: y/total 1.0000..1.0000 (x/total max 5.7e-07)
+   S_dip/S_und: min 7.3e-07, median 1.3e-02, max 8.3e+02; |S_comb - S_und - S_dip|/S_comb max 7.3e-04 (total-intensity interference)
+   45-degree projection: fringe visibility sqrt(S2^2+S3^2)/S0 median 2.18e-01, max 1.00e+00
+4. fraction of the grid where both |Ex| and |Ey| > 10% of their envelope: 0.95
+
+=== 0.5 mrad
+1. tout: |S(60/3.75) - S(30/1.875)|/env max 5.0e-05; S2: |diff|/env(S0) max 1.8e-04
+2. |E_comb - (E_und + E_dip)| / |E_comb| (per component, envelope): x 8.8e-07, y 8.4e-05
+3. undulator: x/total 1.0000..1.0000 (y/total max 0.0e+00); dipole: y/total 0.9143..0.9362 (x/total max 8.6e-02)
+   S_dip/S_und: min 1.6e-08, median 8.4e-03, max 4.0e+02; |S_comb - S_und - S_dip|/S_comb max 3.9e-01 (total-intensity interference)
+   45-degree projection: fringe visibility sqrt(S2^2+S3^2)/S0 median 1.77e-01, max 1.00e+00
+4. fraction of the grid where both |Ex| and |Ey| > 10% of their envelope: 0.98

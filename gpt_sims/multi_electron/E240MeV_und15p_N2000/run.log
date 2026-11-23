@@ -1,0 +1,10 @@
+﻿cmd : <GPTBIN>\gpt.exe: multi_electron_und15p.in(9): Warning: initial_distribution.gdf: G array is ignored
+At line:1 char:576
++ ... m = Measure-Command { cmd /c "`"$d\run.bat`"" *> "$d\run.log" }; Add- ...
++                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (<GPTBIN>\bi...rray is ignored:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+Done: result.gdf and stats.gdf written.
+elapsed 0.3 min

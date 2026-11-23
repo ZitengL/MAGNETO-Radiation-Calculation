@@ -1,0 +1,17 @@
+% max (median) of |MAGNETO - model| / local envelope per band
+% Undulator
+% band_nm   N|F|^2_range   analytic   discrete   translation   incoherent
+ 15- 25  4.8e-05-3.612  3.84e-01(6.5e-02)  1.04e-01(3.4e-03)  5.55e-03(1.4e-03)  1.25e-02(1.2e-03)
+ 25- 40  3.6-169.4  2.32e-01(8.1e-02)  2.47e-02(8.2e-04)  2.33e-03(6.4e-04)  8.01e-03(7.3e-04)
+ 40- 70  1.7e+02-893.3  9.47e-02(2.2e-02)  1.66e-03(5.3e-04)  8.83e-04(4.5e-04)  4.10e-03(5.5e-04)
+ 70-150  8.9e+02-1678  2.38e-02(5.0e-03)  5.67e-04(3.4e-04)  6.01e-04(3.0e-04)  8.85e-04(3.5e-04)
+% Dipole
+% band_nm   N|F|^2_range   analytic   discrete   translation   incoherent   analytic(sample sigma_z)
+ 15- 25  4.8e-05-3.612  3.14e-01(1.9e-01)  2.12e-02(1.7e-02)  7.35e-05(4.1e-05)  6.83e-05(2.7e-05)  3.14e-01(2.1e-01)
+ 25- 40  3.6-169.4  2.00e-01(1.6e-01)  4.53e-03(9.5e-04)  5.79e-06(5.4e-06)  1.45e-05(9.5e-06)  8.26e-02(6.3e-02)
+ 40- 70  1.7e+02-893.3  9.08e-02(4.5e-02)  2.53e-04(4.9e-05)  5.58e-06(4.3e-06)  1.66e-05(1.6e-05)  3.17e-02(1.1e-02)
+ 70-150  8.9e+02-1678  2.33e-02(1.0e-02)  1.55e-05(1.4e-05)  2.83e-06(1.3e-06)  1.64e-05(1.5e-05)  3.70e-03(8.0e-04)
+Dipole at 150 nm: S_multi/(N S1) = 1685.9, S_multi/(N^2 S1) = 0.8430, |F|^2 = 0.8391
+Undulator harmonic near 101.80 nm (peak 102.01 nm): N|F|^2 = 1.37e+03, S_multi/(N S1) = 1383, S_multi/(N^2 S1) = 0.6916
+Undulator harmonic near 33.94 nm (peak 33.99 nm): N|F|^2 = 65.6, S_multi/(N S1) = 76.9, S_multi/(N^2 S1) = 0.03845
+Undulator harmonic near 20.37 nm (peak 20.39 nm): N|F|^2 = 0.15, S_multi/(N S1) = 0.7732, S_multi/(N^2 S1) = 0.0003866

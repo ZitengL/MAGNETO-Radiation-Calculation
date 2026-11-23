@@ -1,0 +1,8 @@
+% sigma_z [nm] where the coherent energy equals the macro-particle noise floor (expected value of the 5e4-particle beam)
+% N_macro  nmacro  D1(50-280nm)  D2(300-1000nm); last row = real beam (floor = incoherent level)
+     5e+04   1.25e+04     70.3    148.6
+     5e+05   1.25e+03     90.4    222.5
+     5e+06        125    108.7    297.4
+     5e+07       12.5    125.3    365.8
+  6.24e+08          1    141.9    433.0
+% real incoherent level: D1 2.017e-06, D2 1.602e-07 J/sr; electrons per bunch 6.242e+08; fields of summary.mat: S Sn W Wn Wsd bands lam nmac sens sz

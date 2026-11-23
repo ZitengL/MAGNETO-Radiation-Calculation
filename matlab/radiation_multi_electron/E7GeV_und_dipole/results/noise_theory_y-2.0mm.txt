@@ -1,0 +1,14 @@
+% x = 0, y = -2.0 mm, z = 5.9 m, x polarisation, 5e4 macro-particles in 25 chunks; energies in 50-300 nm [J/sr]
+% predicted noise energy W(self) = 2.5342e-02 J/sr (independent of sigma_z)
+% sigma_z_nm  W_sim  W_pred(=C_pred+self)  W_C_pred  W_self_est(from chunks)  W_self_est/W_self  lambda_cross_nm(C_pred=self)
+ 10  8.2129e+01  8.2129e+01  8.2104e+01  2.4031e-02  0.948    50.0
+ 15  3.6169e+01  3.5886e+01  3.5860e+01  2.3753e-02  0.937    50.0
+ 20  1.4869e+01  1.4884e+01  1.4858e+01  2.3407e-02  0.924    50.0
+ 25  6.4262e+00  6.5146e+00  6.4892e+00  2.6322e-02  1.039    53.4
+ 30  3.0592e+00  3.0830e+00  3.0576e+00  2.6856e-02  1.060    63.2
+ 35  1.5859e+00  1.5671e+00  1.5418e+00  2.4666e-02  0.973    72.9
+ 40  8.7277e-01  8.4614e-01  8.2080e-01  2.4790e-02  0.978    83.2
+ 45  5.0661e-01  4.8081e-01  4.5547e-01  2.5028e-02  0.988    93.2
+ 50  3.1110e-01  2.8588e-01  2.6054e-01  2.5331e-02  1.000   103.9
+% deep-noise region, |E_c|^2/self_c over chunks, sigma_z and wavelengths: 8925 values, mean 0.968, s.d. 0.914, median 0.679 (exponential: 1, 1, 0.693)
+% fraction of S_sim inside the predicted 16-84 % band, per sigma_z (all wavelengths): 1.00 1.00 1.00 0.80 0.73 0.68 0.73 0.78 0.79

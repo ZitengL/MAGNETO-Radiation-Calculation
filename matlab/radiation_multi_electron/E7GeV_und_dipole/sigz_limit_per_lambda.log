@@ -1,0 +1,17 @@
+
+% sigma_z [nm] where coherent = r x incoherent at a single wavelength. N = 6.242e+08
+% bound (any point, eta = 1) | y = -2.0 mm x pol. (+- jackknife), eta = coherent efficiency
+% lambda_nm | bound r=10 1 0.1 | y-2mm r=10 sd r=1 sd r=0.1 sd | eta
+   100 |    68    72    76 |    64   0    69   0    73   0 | 1.99e-01
+   200 |   135   143   151 |   122   0   131   0   140   0 | 3.97e-02
+   279 |   188   200   211 |   161   0   175   0   188   0 | 8.54e-03
+   300 |   202   215   226 |   171   1   186   1   199   1 | 6.24e-03
+   400 |   270   287   303 |   217   2   238   1   257   1 | 1.80e-03
+   499 |   336   357   377 |   260   3   287   3   311   3 | 7.50e-04
+   600 |   405   430   454 |   303   6   336   5   366   5 | 3.77e-04
+   701 |   473   502   530 |   344   9   384   8   419   8 | 2.19e-04
+   798 |   538   572   604 |   383  14   429  12   470  11 | 1.42e-04
+   900 |   607   645   680 |   423  20   475  18   523  16 | 9.66e-05
+  1000 |   674   716   756 |   461  28   520  24   573  22 | 6.98e-05
+% wavelength needed for sigma_z = 1000 nm: eta = 1: coherent = 1 x inc. at 1.40 um, 0.1 x at 1.32 um
+%   if eta stayed at its 1 um value at y = -2 mm (7.0e-05; an assumption, eta decreases with lambda here): coherent = 1 x inc. at 1.92 um, 0.1 x at 1.74 um

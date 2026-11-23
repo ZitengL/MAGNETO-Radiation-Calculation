@@ -1,0 +1,12 @@
+﻿single electron, 3.75 vs 1.875 um: pointwise within 1% for lambda >= 15.000 nm (max |S/S_fine - 1| = 5.09e-05)
+translation model: 123.2 min
+converged range 15.00-150 nm, N|F|^2 = 0 .. 1678
+   15.00- 25 nm: N|F|^2 4.80e-05..3.61e+00; analytic with sample sigma_z (9.8743 nm): max 3.14e-01
+   15.00- 25 nm: |multi - analytic|/env max 3.14e-01 (median 1.9e-01); |multi - translation|/env max 7.35e-05 (median 4.1e-05); |sum|E_j|^2 - N S1|/env max 6.8e-05
+   25.00- 40 nm: N|F|^2 3.63e+00..1.69e+02; analytic with sample sigma_z (9.8743 nm): max 8.26e-02
+   25.00- 40 nm: |multi - analytic|/env max 2.00e-01 (median 1.6e-01); |multi - translation|/env max 5.79e-06 (median 5.4e-06); |sum|E_j|^2 - N S1|/env max 1.5e-05
+   40.00- 70 nm: N|F|^2 1.70e+02..8.93e+02; analytic with sample sigma_z (9.8743 nm): max 3.17e-02
+   40.00- 70 nm: |multi - analytic|/env max 9.08e-02 (median 4.5e-02); |multi - translation|/env max 5.58e-06 (median 4.3e-06); |sum|E_j|^2 - N S1|/env max 1.7e-05
+   70.00-150 nm: N|F|^2 8.94e+02..1.68e+03; analytic with sample sigma_z (9.8743 nm): max 3.70e-03
+   70.00-150 nm: |multi - analytic|/env max 2.33e-02 (median 1.0e-02); |multi - translation|/env max 2.83e-06 (median 1.3e-06); |sum|E_j|^2 - N S1|/env max 1.6e-05
+at 150 nm: S_multi / (N S1) = 1685.9, S_multi / (N^2 S1) = 0.843, |F|^2 = 0.8391
